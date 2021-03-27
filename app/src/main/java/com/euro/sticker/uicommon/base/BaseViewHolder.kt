@@ -3,15 +3,15 @@ package com.euro.sticker.uicommon.base
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
 
-abstract class BaseViewHolder<T>(
+abstract class BaseViewHolder<T, V>(
         val viewBindings: T,
 ) : RecyclerView.ViewHolder(viewBindings.root) where T : ViewBinding {
-    abstract fun bind(item: Any)
+    abstract fun bind(item: V)
 
     /**
      * Can be overridden to provide custom payload behavior to ViewHolders
      */
-    open fun bind(item: Any, payloads: List<Any>) {
+    open fun bind(item: V, payloads: List<Any>) {
         bind(item)
     }
 }

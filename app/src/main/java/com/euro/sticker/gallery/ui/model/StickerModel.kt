@@ -1,4 +1,4 @@
-package com.euro.sticker.gallery.ui
+package com.euro.sticker.gallery.ui.model
 
 data class StickerModel(
         val number: Int,

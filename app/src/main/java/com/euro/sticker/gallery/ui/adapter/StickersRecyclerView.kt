@@ -1,19 +1,28 @@
 package com.euro.sticker.gallery.ui.adapter
 
-import android.view.ViewGroup
+import android.content.Context
+import android.util.AttributeSet
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.euro.sticker.gallery.ui.StickersGalleryViewModel
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
-class StickersRecyclerView : RecyclerView.Adapter<StickerViewHolder>() {
+private const val COLUMNS = 6
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StickerViewHolder {
-        TODO("Not yet implemented")
-    }
+@AndroidEntryPoint
+class StickersRecyclerView @JvmOverloads constructor(
+    context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+) : RecyclerView(context, attrs, defStyleAttr) {
 
-    override fun onBindViewHolder(holder: StickerViewHolder, position: Int) {
-        TODO("Not yet implemented")
-    }
+    @Inject
+    lateinit var stickersGalleryViewModel: StickersGalleryViewModel
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+    private val stickersAdapter = StickersAdapter()
+
+    init {
+        adapter = stickersAdapter
+        layoutManager = GridLayoutManager(context, COLUMNS)
+
     }
 }
