@@ -1,4 +1,4 @@
-package com.euro.sticker.uicommon.base
+package com.euro.sticker.uicommon.base.recyclerview
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding

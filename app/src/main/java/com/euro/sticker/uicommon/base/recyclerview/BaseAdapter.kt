@@ -1,4 +1,4 @@
-package com.euro.sticker.uicommon.base
+package com.euro.sticker.uicommon.base.recyclerview
 
 import androidx.recyclerview.widget.RecyclerView
 
@@ -10,9 +10,9 @@ abstract class BaseAdapter<V> : RecyclerView.Adapter<BaseViewHolder<*, V>>() {
     }
 
     override fun onBindViewHolder(
-        holder: BaseViewHolder<*, V>,
-        position: Int,
-        payloads: MutableList<Any>
+            holder: BaseViewHolder<*, V>,
+            position: Int,
+            payloads: MutableList<Any>
     ) {
         holder.bind(itemList[position], payloads)
     }
