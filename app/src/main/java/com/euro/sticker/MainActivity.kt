@@ -1,12 +1,47 @@
 package com.euro.sticker
 
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
-import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
+import com.euro.sticker.gallery.data.Repository
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
+
+val categories = listOf<String>(
+    "Intro",
+    "Group A",
+    "Italy",
+    "Switzerland",
+    "Turkey",
+    "Wales",
+    "Group B",
+    "Belgium",
+    "Denmark",
+    "Finland",
+    "Russia",
+    "Group C",
+    "Austria",
+    "Netherlands",
+    "Northern Macedonia",
+    "Ukraine",
+    "Group D",
+    "Croatia",
+    "Czech Republic",
+    "England",
+    "Scotland",
+    "Group E",
+    "Poland",
+    "Slovakia",
+    "Spain",
+    "Sweden",
+    "Group F",
+    "France",
+    "Germany",
+    "Hungary",
+    "Portugal",
+    "France",
+)
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {

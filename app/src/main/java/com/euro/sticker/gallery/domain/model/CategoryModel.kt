@@ -1,6 +1,13 @@
-package com.euro.sticker.gallery.ui.model
+package com.euro.sticker.gallery.domain.model
 
-data class SectionModel(
-        val stickers: List<StickerModel>,
-        val name: String
-)
+import com.euro.sticker.gallery.data.model.StickersAndCategories
+
+data class CategoryModel(
+        val name: String,
+        val stickers: List<StickerModel>
+) {
+    constructor(stickersAndCategories: StickersAndCategories) : this(
+            stickersAndCategories.categoryEntity.name,
+            stickersAndCategories.stickers.map { StickerModel(it) }
+    )
+}
