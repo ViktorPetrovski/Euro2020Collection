@@ -8,4 +8,6 @@ class Repository @Inject constructor(private val stickersDao: StickersDao) {
     suspend fun getAllStickers(): List<CategoryModel> {
         return stickersDao.getCategoriesAndStickers().map { CategoryModel(it) }
     }
+
+    suspend fun updateSticker(newAmount: Int, number: Int) = stickersDao.updateSticker(newAmount, number)
 }

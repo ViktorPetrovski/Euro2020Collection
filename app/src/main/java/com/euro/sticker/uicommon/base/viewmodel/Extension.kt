@@ -14,6 +14,7 @@ import androidx.lifecycle.*
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.RecyclerView
 import java.lang.RuntimeException
 import kotlin.reflect.KClass
 
@@ -36,6 +37,25 @@ val Context.lifecycleOwner: LifecycleOwner
 
 @MainThread
 @Suppress("MissingNullability") // Due to https://youtrack.jetbrains.com/issue/KT-39209
+inline fun <reified VM : ViewModel> RecyclerView.ViewHolder.hiltNavGraphViewModels(
+    @IdRes navGraphId: Int
+): Lazy<VM> {
+    val backStackEntry by lazy {
+        itemView.findNavController().getBackStackEntry(navGraphId)
+    }
+    val storeProducer: () -> ViewModelStore = {
+        backStackEntry.viewModelStore
+    }
+    return createViewModelLazy(
+        VM::class, storeProducer,
+        {
+            HiltViewModelFactory(itemView.context, backStackEntry)
+        }
+    )
+}
+
+@MainThread
+@Suppress("MissingNullability") // Due to https://youtrack.jetbrains.com/issue/KT-39209
 inline fun <reified VM : ViewModel> View.hiltNavGraphViewModels(
     @IdRes navGraphId: Int
 ): Lazy<VM> {
@@ -54,7 +74,7 @@ inline fun <reified VM : ViewModel> View.hiltNavGraphViewModels(
 }
 
 @MainThread
-fun <VM : ViewModel> View.createViewModelLazy(
+fun <VM : ViewModel> createViewModelLazy(
     viewModelClass: KClass<VM>,
     storeProducer: () -> ViewModelStore,
     factoryProducer: (() -> ViewModelProvider.Factory)

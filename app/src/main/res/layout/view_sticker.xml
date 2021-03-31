@@ -2,6 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/sticker_cell_height"
+    android:layout_margin="4dp"
+    android:id="@+id/stickerHolder"
+    android:background="@drawable/bg_missing_sticker"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -9,11 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="16sp"
-        android:text="12"
+        android:textColor="@color/white"
         android:layout_margin="4dp"
-        android:padding="8dp"
         android:gravity="center"
-        android:background="@color/teal_700"
+        android:fontFamily="@font/beau_sans_pro_bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

@@ -36,6 +36,7 @@ class StickersRecyclerView @JvmOverloads constructor(
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
         stickersGalleryViewModel.getStickers.observe(context.lifecycleOwner) {
+            stickersAdapter.itemList.clear()
             stickersAdapter.itemList.addAll(it)
             stickersAdapter.notifyDataSetChanged()
         }

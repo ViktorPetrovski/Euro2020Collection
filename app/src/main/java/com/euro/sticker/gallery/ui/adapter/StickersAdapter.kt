@@ -3,6 +3,8 @@ package com.euro.sticker.gallery.ui.adapter
 import android.view.ViewGroup
 import com.euro.sticker.gallery.ui.adapter.content.ContentType
 import com.euro.sticker.gallery.ui.adapter.content.GalleryContent
+import com.euro.sticker.gallery.ui.adapter.view_holders.CategoryViewHolder
+import com.euro.sticker.gallery.ui.adapter.view_holders.StickerViewHolder
 import com.euro.sticker.uicommon.base.recyclerview.BaseAdapter
 import com.euro.sticker.uicommon.base.recyclerview.BaseViewHolder
 
@@ -13,7 +15,7 @@ class StickersAdapter : BaseAdapter<GalleryContent>() {
         viewType: Int
     ): BaseViewHolder<*, GalleryContent> {
         return when (ContentType.getTypeFromAdapterTypeId(viewType)) {
-            ContentType.HEADER -> CategoryHeader.buildVIewHolder(parent)
+            ContentType.HEADER -> CategoryViewHolder.buildVIewHolder(parent)
             ContentType.STICKER -> StickerViewHolder.buildVIewHolder(parent)
         }
     }

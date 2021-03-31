@@ -12,6 +12,6 @@ interface StickersDao {
     @Query("SELECT * FROM CategoryEntity")
     suspend fun getCategoriesAndStickers(): List<StickersAndCategories>
 
-    @Update
-    suspend fun updateSticker(vararg sticker: StickerEntity)
+    @Query("UPDATE StickerEntity SET amount=:amount WHERE number=:number")
+    suspend fun updateSticker(amount: Int, number: Int)
 }

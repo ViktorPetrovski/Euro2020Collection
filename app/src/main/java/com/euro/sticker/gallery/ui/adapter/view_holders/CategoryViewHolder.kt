@@ -1,4 +1,4 @@
-package com.euro.sticker.gallery.ui.adapter
+package com.euro.sticker.gallery.ui.adapter.view_holders
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import com.euro.sticker.gallery.ui.adapter.content.GalleryContent
 import com.euro.sticker.uicommon.base.recyclerview.BaseViewHolder
 import java.lang.RuntimeException
 
-class CategoryHeader(
+class CategoryViewHolder(
     private val context: Context,
     private val itemBinding: ViewGroupTitleBinding
 ) : BaseViewHolder<ViewGroupTitleBinding, GalleryContent>(itemBinding) {
@@ -21,10 +21,10 @@ class CategoryHeader(
     }
 
     companion object {
-        fun buildVIewHolder(parent: ViewGroup): CategoryHeader {
+        fun buildVIewHolder(parent: ViewGroup): CategoryViewHolder {
             val bindings =
                 ViewGroupTitleBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-            return CategoryHeader(parent.context, bindings)
+            return CategoryViewHolder(parent.context, bindings)
         }
     }
 }
