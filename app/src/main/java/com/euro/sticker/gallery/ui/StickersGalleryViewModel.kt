@@ -60,9 +60,12 @@ class StickersGalleryViewModel @Inject constructor(
         }
         val newAmount = galleryContent.amount + 1
         val category = stickersList[indexOfCategory] as CategoryContent
-        val updatedCategoryContent = category.copy(collectedStickers =  category.collectedStickers + 1)
+        if (newAmount == 1) {
+            val updatedCategoryContent =
+                category.copy(collectedStickers = category.collectedStickers + 1)
+            stickersList[indexOfCategory] = updatedCategoryContent
+        }
         stickersList[indexOfItem] = galleryContent.copy(amount = newAmount)
-        stickersList[indexOfCategory] = updatedCategoryContent
         stickers.postValue(stickersList)
         viewModelScope.launch {
             repository.updateSticker(newAmount, galleryContent.number)
