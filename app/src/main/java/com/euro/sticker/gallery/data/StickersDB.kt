@@ -13,7 +13,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-private const val DB_ASSETS_FILE = "database/StickersDb.db"
+private const val DB_ASSETS_FILE = "database/StickersDbReal.db"
 private const val DB_NAME = "StickersDB"
 
 @Database(entities = [StickerEntity::class, CategoryEntity::class], version = 1)

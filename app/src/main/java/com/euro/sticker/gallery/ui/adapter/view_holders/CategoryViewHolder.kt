@@ -18,6 +18,7 @@ class CategoryViewHolder(
         if (item !is CategoryContent)
             throw RuntimeException("CategoryHeader must accept CategoryContent type")
         itemBinding.headerTitle.text = item.categoryName
+        itemBinding.categoryCount.text = "${item.collectedStickers}/${item.totalStickersInCategory}"
     }
 
     companion object {

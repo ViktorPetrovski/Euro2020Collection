@@ -2,6 +2,7 @@ package com.euro.sticker.gallery.ui.adapter
 
 import android.content.Context
 import android.util.AttributeSet
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.euro.sticker.R
@@ -36,9 +37,10 @@ class StickersRecyclerView @JvmOverloads constructor(
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
         stickersGalleryViewModel.getStickers.observe(context.lifecycleOwner) {
+            val diffResult = DiffUtil.calculateDiff(StickersDiffCallback(stickersAdapter.itemList, it))
             stickersAdapter.itemList.clear()
             stickersAdapter.itemList.addAll(it)
-            stickersAdapter.notifyDataSetChanged()
+            diffResult.dispatchUpdatesTo(stickersAdapter)
         }
     }
 

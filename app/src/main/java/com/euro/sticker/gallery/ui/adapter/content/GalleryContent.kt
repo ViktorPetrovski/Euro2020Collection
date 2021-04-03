@@ -23,13 +23,13 @@ data class StickerContent(
     val number: Int,
     val name: String,
     val amount: Int,
-    val category: CategoryContent
+    val categoryName: String
 ) : GalleryContent(ContentType.STICKER) {
 
-    constructor(stickerModel: StickerModel, category: CategoryContent) : this(
+    constructor(stickerModel: StickerModel, categoryName: String) : this(
         number = stickerModel.number,
         name = stickerModel.name,
         amount = stickerModel.amountOwned,
-        category = category
+        categoryName = categoryName
     )
 }

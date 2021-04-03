@@ -36,7 +36,7 @@ class StickersGalleryViewModel @Inject constructor(
                 val stickersContent = it.stickers.map { stickerModel ->
                     StickerContent(
                         stickerModel,
-                        categoryContent
+                        categoryContent.categoryName
                     )
                 }
                 resultData.add(categoryContent)
@@ -48,10 +48,21 @@ class StickersGalleryViewModel @Inject constructor(
     }
 
     fun addAmount(galleryContent: StickerContent) {
-        val index =
-            stickersList.indexOfFirst { (it as? StickerContent)?.number == galleryContent.number }
+        var indexOfItem = -1
+        var indexOfCategory = -1
+        stickersList.forEachIndexed { index, item ->
+            if (indexOfCategory != -1 && indexOfItem != -1)
+                return@forEachIndexed
+            else if (indexOfCategory == -1 && (item as? CategoryContent)?.categoryName == galleryContent.categoryName)
+                indexOfCategory = index
+            else if (indexOfItem == -1 && (item as? StickerContent)?.number == galleryContent.number)
+                indexOfItem = index
+        }
         val newAmount = galleryContent.amount + 1
-        stickersList[index] = galleryContent.copy(amount = newAmount)
+        val category = stickersList[indexOfCategory] as CategoryContent
+        val updatedCategoryContent = category.copy(collectedStickers =  category.collectedStickers + 1)
+        stickersList[indexOfItem] = galleryContent.copy(amount = newAmount)
+        stickersList[indexOfCategory] = updatedCategoryContent
         stickers.postValue(stickersList)
         viewModelScope.launch {
             repository.updateSticker(newAmount, galleryContent.number)
