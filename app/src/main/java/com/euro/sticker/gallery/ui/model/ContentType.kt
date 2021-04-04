@@ -1,4 +1,4 @@
-package com.euro.sticker.gallery.ui.adapter.content
+package com.euro.sticker.gallery.ui.model
 
 import java.lang.RuntimeException
 

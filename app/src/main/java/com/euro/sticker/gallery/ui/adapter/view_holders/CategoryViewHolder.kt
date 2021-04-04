@@ -4,8 +4,8 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.euro.sticker.databinding.ViewGroupTitleBinding
-import com.euro.sticker.gallery.ui.adapter.content.CategoryContent
-import com.euro.sticker.gallery.ui.adapter.content.GalleryContent
+import com.euro.sticker.gallery.ui.model.CategoryContent
+import com.euro.sticker.gallery.ui.model.GalleryContent
 import com.euro.sticker.uicommon.base.recyclerview.BaseViewHolder
 import java.lang.RuntimeException
 

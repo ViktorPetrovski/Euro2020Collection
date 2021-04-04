@@ -5,10 +5,18 @@ import android.view.Gravity
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.FrameLayout
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.Navigation
+import androidx.navigation.findNavController
+import androidx.navigation.ui.setupWithNavController
 import com.euro.sticker.databinding.ActivityMainBinding
 import com.euro.sticker.gallery.data.Repository
+import com.euro.sticker.gallery.ui.StickersGalleryViewModel
+import com.euro.sticker.gallery.ui.adapter.StickersRecyclerView
 import com.euro.sticker.gallery.ui.drawer.DrawerHeaderView
+import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
+import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -16,6 +24,9 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+
+    @Inject
+    lateinit var provider: MyVMProvider
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +39,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupDrawer() {
-        binding.navView.addHeaderView(DrawerHeaderView(this))
+        val navController = Navigation.findNavController(this, R.id.nav_host_fragment)
+        binding.navView.setupWithNavController(navController)
+
+//        val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
+//        binding.navView.setOnFilterChangedListener {
+//            stickersGalleryViewModel.changeFilter(it)
+//        }
     }
 
     fun openDrawer() {

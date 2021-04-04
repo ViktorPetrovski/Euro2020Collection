@@ -14,10 +14,10 @@
         app:navGraph="@navigation/nav_graph" />
 
     <!-- Container for contents of drawer - use NavigationView to make configuration easier -->
-    <com.google.android.material.navigation.NavigationView
+    <com.euro.sticker.gallery.ui.drawer.DrawerMenuView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start"/>
+        android:layout_gravity="start" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

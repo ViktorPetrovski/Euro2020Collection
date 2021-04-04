@@ -5,11 +5,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.euro.sticker.gallery.data.Repository
-import com.euro.sticker.gallery.domain.model.CategoryModel
-import com.euro.sticker.gallery.domain.model.StickerModel
-import com.euro.sticker.gallery.ui.adapter.content.CategoryContent
-import com.euro.sticker.gallery.ui.adapter.content.GalleryContent
-import com.euro.sticker.gallery.ui.adapter.content.StickerContent
+import com.euro.sticker.gallery.ui.model.CategoryContent
+import com.euro.sticker.gallery.ui.model.GalleryContent
+import com.euro.sticker.gallery.ui.model.StickerContent
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -22,7 +20,12 @@ class StickersGalleryViewModel @Inject constructor(
     private val stickers = MutableLiveData<List<GalleryContent>>()
     val getStickers: LiveData<List<GalleryContent>> = stickers
 
+    private var totalOwned: Int = 0
+    private val stickersOwnedCount = MutableLiveData<Int>()
+    val getOwnedStickersCount: LiveData<Int> = stickersOwnedCount
+
     private var stickersList = mutableListOf<GalleryContent>()
+    private var selectedFilter = ViewFilter.All
 
     init {
         fetchInitialData()
@@ -33,6 +36,7 @@ class StickersGalleryViewModel @Inject constructor(
             val resultData = mutableListOf<GalleryContent>()
             repository.getAllStickers().forEach {
                 val categoryContent = CategoryContent(it)
+                totalOwned += categoryContent.collectedStickers
                 val stickersContent = it.stickers.map { stickerModel ->
                     StickerContent(
                         stickerModel,
@@ -43,7 +47,8 @@ class StickersGalleryViewModel @Inject constructor(
                 resultData.addAll(stickersContent)
             }
             stickersList = resultData
-            stickers.postValue(stickersList)
+            stickers.postValue(getDisplayList())
+            stickersOwnedCount.postValue(totalOwned)
         }
     }
 
@@ -64,11 +69,33 @@ class StickersGalleryViewModel @Inject constructor(
             val updatedCategoryContent =
                 category.copy(collectedStickers = category.collectedStickers + 1)
             stickersList[indexOfCategory] = updatedCategoryContent
+            totalOwned++
+            stickersOwnedCount.postValue(totalOwned)
         }
         stickersList[indexOfItem] = galleryContent.copy(amount = newAmount)
-        stickers.postValue(stickersList)
+        stickers.postValue(getDisplayList())
         viewModelScope.launch {
             repository.updateSticker(newAmount, galleryContent.number)
         }
+    }
+
+    private fun getDisplayList(): List<GalleryContent> {
+        stickersList =  when (selectedFilter) {
+            ViewFilter.All -> stickersList
+            ViewFilter.Missing -> stickersList.filterNot { (it as? StickerContent)?.amount ?: 0 > 0 }
+            ViewFilter.Swaps -> stickersList.filterNot { (it as? StickerContent)?.amount ?: 0 <= 1 }
+        }.toMutableList()
+        return stickersList
+    }
+
+    fun changeFilter(filter: ViewFilter) {
+        selectedFilter = filter
+        stickers.postValue(getDisplayList())
+    }
+
+    enum class ViewFilter {
+        All,
+        Missing,
+        Swaps
     }
 }

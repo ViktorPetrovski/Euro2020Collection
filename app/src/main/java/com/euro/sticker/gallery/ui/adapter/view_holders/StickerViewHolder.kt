@@ -7,16 +7,20 @@ import androidx.core.content.ContextCompat
 import com.euro.sticker.R
 import com.euro.sticker.databinding.ViewStickerBinding
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
-import com.euro.sticker.gallery.ui.adapter.content.GalleryContent
-import com.euro.sticker.gallery.ui.adapter.content.StickerContent
+import com.euro.sticker.gallery.ui.model.GalleryContent
+import com.euro.sticker.gallery.ui.model.StickerContent
 import com.euro.sticker.uicommon.base.recyclerview.BaseViewHolder
+import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
+import dagger.hilt.android.AndroidEntryPoint
 import java.lang.RuntimeException
+import javax.inject.Inject
 
-class StickerViewHolder(private val context: Context, private val itemBinding: ViewStickerBinding) :
+
+class StickerViewHolder(private val context: Context,
+                        private val itemBinding: ViewStickerBinding,
+                        private val itemClicked: (item: StickerContent) -> Unit) :
     BaseViewHolder<ViewStickerBinding, GalleryContent>(itemBinding) {
-
-    private val stickersGalleryViewModel: StickersGalleryViewModel by hiltNavGraphViewModels(R.id.nav_graph)
 
     override fun bind(item: GalleryContent) {
         if (item !is StickerContent)
@@ -29,14 +33,14 @@ class StickerViewHolder(private val context: Context, private val itemBinding: V
         }
 
         itemBinding.stickerHolder.background = ContextCompat.getDrawable(context, drawable)
-        itemBinding.stickerHolder.setOnClickListener { stickersGalleryViewModel.addAmount(item) }
+        itemBinding.stickerHolder.setOnClickListener { itemClicked.invoke(item) }
     }
 
     companion object {
-        fun buildVIewHolder(parent: ViewGroup): StickerViewHolder {
+        fun buildVIewHolder(parent: ViewGroup, itemClicked: (item: StickerContent) -> Unit): StickerViewHolder {
             val bindings =
                 ViewStickerBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-            return StickerViewHolder(parent.context, bindings)
+            return StickerViewHolder(parent.context, bindings, itemClicked)
         }
     }
 }

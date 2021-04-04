@@ -2,16 +2,18 @@ package com.euro.sticker.gallery.ui.adapter
 
 import android.content.Context
 import android.util.AttributeSet
+import android.widget.Toast
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.euro.sticker.R
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
-import com.euro.sticker.gallery.ui.adapter.content.ContentType
+import com.euro.sticker.gallery.ui.model.ContentType
+import com.euro.sticker.gallery.ui.model.StickerContent
 import com.euro.sticker.uicommon.base.recyclerview.ColumnItemDecoration
-import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
+import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.lifecycleOwner
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 private const val COLUMNS = 6
 private const val FULL_COLUMN_WIDTH = 1
@@ -21,9 +23,10 @@ class StickersRecyclerView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : RecyclerView(context, attrs, defStyleAttr) {
 
-    val stickersGalleryViewModel: StickersGalleryViewModel by hiltNavGraphViewModels(R.id.nav_graph)
+    @Inject
+    lateinit var provider: MyVMProvider
 
-    private val stickersAdapter = StickersAdapter()
+    private val stickersAdapter = StickersAdapter(::onItemClicked)
     private val gridManager = GridLayoutManager(context, COLUMNS)
 
     init {
@@ -31,13 +34,14 @@ class StickersRecyclerView @JvmOverloads constructor(
         adjustCorrectSpanSize()
         layoutManager = gridManager
         addItemDecoration(ColumnItemDecoration())
-
     }
 
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
+        val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
         stickersGalleryViewModel.getStickers.observe(context.lifecycleOwner) {
-            val diffResult = DiffUtil.calculateDiff(StickersDiffCallback(stickersAdapter.itemList, it))
+            val diffResult =
+                DiffUtil.calculateDiff(StickersDiffCallback(stickersAdapter.itemList, it))
             stickersAdapter.itemList.clear()
             stickersAdapter.itemList.addAll(it)
             diffResult.dispatchUpdatesTo(stickersAdapter)
@@ -47,6 +51,8 @@ class StickersRecyclerView @JvmOverloads constructor(
     private fun adjustCorrectSpanSize() {
         gridManager.spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
             override fun getSpanSize(position: Int): Int {
+                if (position == -1)
+                    return COLUMNS
                 return when (stickersAdapter.getItemViewType(position)) {
                     ContentType.STICKER.adapterTypeId -> FULL_COLUMN_WIDTH
                     ContentType.HEADER.adapterTypeId -> COLUMNS
@@ -54,5 +60,11 @@ class StickersRecyclerView @JvmOverloads constructor(
                 }
             }
         }
+    }
+
+    private fun onItemClicked(item: StickerContent) {
+        val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
+        stickersGalleryViewModel.addAmount(item)
+        Toast.makeText(context, "Item: $item", Toast.LENGTH_LONG).show()
     }
 }

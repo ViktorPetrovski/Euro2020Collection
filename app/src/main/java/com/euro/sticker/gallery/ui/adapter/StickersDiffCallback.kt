@@ -1,9 +1,9 @@
 package com.euro.sticker.gallery.ui.adapter
 
 import androidx.recyclerview.widget.DiffUtil
-import com.euro.sticker.gallery.ui.adapter.content.CategoryContent
-import com.euro.sticker.gallery.ui.adapter.content.GalleryContent
-import com.euro.sticker.gallery.ui.adapter.content.StickerContent
+import com.euro.sticker.gallery.ui.model.CategoryContent
+import com.euro.sticker.gallery.ui.model.GalleryContent
+import com.euro.sticker.gallery.ui.model.StickerContent
 
 class StickersDiffCallback(
     private val oldList: List<GalleryContent>,
@@ -16,20 +16,16 @@ class StickersDiffCallback(
     override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
         val oldItem = oldList[oldItemPosition]
         val newItem = newList[newItemPosition]
-        val isCategorySame =
-            (oldItem as? CategoryContent)?.categoryName == (newItem as? CategoryContent)?.categoryName
-        val isStickerSame =
-            (oldItem as? StickerContent)?.number == (newItem as? StickerContent)?.number
-        return isCategorySame || isStickerSame
+        return oldItem.id == newItem.id
     }
 
     override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
         val oldItem = oldList[oldItemPosition]
         val newItem = newList[newItemPosition]
         return if (oldItem is CategoryContent && newItem is CategoryContent) {
-            return oldItem.collectedStickers == newItem.collectedStickers
+            return oldItem == newItem
         } else if (oldItem is StickerContent && newItem is StickerContent) {
-            return oldItem.amount == newItem.amount
+            return oldItem == newItem
         } else
             false
     }

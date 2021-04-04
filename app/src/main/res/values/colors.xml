@@ -14,10 +14,10 @@
     <color name="primary_light">#B2EBF2</color>
     <color name="accent">#FF9800</color>
     <color name="primary_text">#212121</color>
-    <color name="border_color">#757575</color>
+    <color name="border_color">#BDBDBD</color>
     <color name="icons">#FFFFFF</color>
     <color name="missing_sticker_bg">#BDBDBD</color>
-
+    <color name="destructive_text_color">#FA6060</color>
     <color name="color_dark_grey">#707379</color>
     <color name="color_basic_medium_grey">#999999</color>
 
