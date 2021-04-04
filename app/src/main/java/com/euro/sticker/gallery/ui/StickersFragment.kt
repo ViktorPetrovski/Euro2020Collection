@@ -12,6 +12,8 @@ import com.bumptech.glide.Glide
 import com.euro.sticker.MainActivity
 import com.euro.sticker.R
 import com.euro.sticker.databinding.FragmentFirstBinding
+import com.euro.sticker.uicommon.base.applyTopWindowInsetsPadding
+import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -33,6 +35,9 @@ class StickersFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.drawerImage.setOnClickListener {
             (requireActivity() as MainActivity).openDrawer()
+        }
+        binding.statusBar.doOnApplyWindowInsets { _, windowInsets, initialPadding ->
+            binding.statusBar.layoutParams.height = windowInsets.systemWindowInsetTop
         }
     }
 

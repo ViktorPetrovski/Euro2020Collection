@@ -9,4 +9,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="all">All</string>
+    <string name="missing">Missing</string>
+    <string name="swaps">Swaps</string>
+    <string name="restore_all_stickers">Restore All Stickers</string>
+    <string name="share_app">Share App</string>
+    <string name="about">About</string>
+    <string name="export_stickers">Export Stickers</string>
+    <string name="import_stickers">Import Stickers</string>
 </resources>

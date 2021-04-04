@@ -15,6 +15,7 @@ import com.euro.sticker.gallery.data.Repository
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
 import com.euro.sticker.gallery.ui.adapter.StickersRecyclerView
 import com.euro.sticker.gallery.ui.drawer.DrawerHeaderView
+import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
 import dagger.hilt.android.AndroidEntryPoint
@@ -36,6 +37,10 @@ class MainActivity : AppCompatActivity() {
         binding.drawerLayout.systemUiVisibility = FrameLayout.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
         binding.navView.systemUiVisibility = FrameLayout.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
         setupDrawer()
+
+        binding.root.doOnApplyWindowInsets { _, windowInsets, initialPadding ->
+            binding.navView.applyWindowInsets(windowInsets.systemWindowInsetTop)
+        }
     }
 
     private fun setupDrawer() {

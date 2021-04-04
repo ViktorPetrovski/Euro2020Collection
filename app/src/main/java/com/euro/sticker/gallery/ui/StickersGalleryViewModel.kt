@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.euro.sticker.gallery.data.Repository
+import com.euro.sticker.gallery.domain.model.ViewFilter
 import com.euro.sticker.gallery.ui.model.CategoryContent
 import com.euro.sticker.gallery.ui.model.GalleryContent
 import com.euro.sticker.gallery.ui.model.StickerContent
@@ -25,7 +26,7 @@ class StickersGalleryViewModel @Inject constructor(
     val getOwnedStickersCount: LiveData<Int> = stickersOwnedCount
 
     private var stickersList = mutableListOf<GalleryContent>()
-    private var selectedFilter = ViewFilter.All
+    private var selectedFilter = repository.getFilter()
 
     init {
         fetchInitialData()
@@ -80,22 +81,18 @@ class StickersGalleryViewModel @Inject constructor(
     }
 
     private fun getDisplayList(): List<GalleryContent> {
-        stickersList =  when (selectedFilter) {
+        return when (selectedFilter) {
             ViewFilter.All -> stickersList
             ViewFilter.Missing -> stickersList.filterNot { (it as? StickerContent)?.amount ?: 0 > 0 }
             ViewFilter.Swaps -> stickersList.filterNot { (it as? StickerContent)?.amount ?: 0 <= 1 }
-        }.toMutableList()
-        return stickersList
+        }
     }
 
     fun changeFilter(filter: ViewFilter) {
         selectedFilter = filter
         stickers.postValue(getDisplayList())
+        repository.changeFilter(filter)
     }
 
-    enum class ViewFilter {
-        All,
-        Missing,
-        Swaps
-    }
+    fun getSelectedFilter() = selectedFilter
 }

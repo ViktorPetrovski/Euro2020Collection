@@ -7,7 +7,10 @@ import android.widget.Toast
 import androidx.navigation.findNavController
 import com.euro.sticker.R
 import com.euro.sticker.databinding.ViewDrawerBinding
+import com.euro.sticker.gallery.domain.model.ViewFilter
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
+import com.euro.sticker.uicommon.base.applyTopWindowInsetsPadding
+import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.createViewModelLazy
 import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
@@ -32,11 +35,18 @@ class DrawerMenuView @JvmOverloads constructor(
 
     init {
         val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
+
+        when (stickersGalleryViewModel.getSelectedFilter()) {
+            ViewFilter.All -> binding.radioGroup.check(R.id.allRb)
+            ViewFilter.Missing -> binding.radioGroup.check(R.id.missingRb)
+            ViewFilter.Swaps -> binding.radioGroup.check(R.id.swapsRB)
+        }
+
         binding.radioGroup.setOnCheckedChangeListener { group, checkedId ->
             when (checkedId) {
-                R.id.allRb -> stickersGalleryViewModel.changeFilter(StickersGalleryViewModel.ViewFilter.All)
-                R.id.missingRb -> stickersGalleryViewModel.changeFilter(StickersGalleryViewModel.ViewFilter.Missing)
-                R.id.swapsRB -> stickersGalleryViewModel.changeFilter(StickersGalleryViewModel.ViewFilter.Swaps)
+                R.id.allRb -> stickersGalleryViewModel.changeFilter(ViewFilter.All)
+                R.id.missingRb -> stickersGalleryViewModel.changeFilter(ViewFilter.Missing)
+                R.id.swapsRB -> stickersGalleryViewModel.changeFilter(ViewFilter.Swaps)
             }
         }
 
@@ -45,5 +55,16 @@ class DrawerMenuView @JvmOverloads constructor(
             var percentage = ((it.toDouble() / TOTAL_STICKERS_COUNT) * 100).toInt()
             binding.currentStatsPercent.text = "$percentage%"
         }
+    }
+
+//    override fun onAttachedToWindow() {
+//        super.onAttachedToWindow()
+//        binding.statusBar.doOnApplyWindowInsets { _, windowInsets, initialPadding ->
+//            binding.statusBar.layoutParams.height = windowInsets.systemWindowInsetTop
+//        }
+//    }
+
+    fun applyWindowInsets(topInsets: Int) {
+        binding.statusBar.layoutParams.height = topInsets
     }
 }
