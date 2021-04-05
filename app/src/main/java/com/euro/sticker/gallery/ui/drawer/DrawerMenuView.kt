@@ -1,9 +1,11 @@
 package com.euro.sticker.gallery.ui.drawer
 
 import android.content.Context
+import android.content.Intent
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.Toast
+import androidx.core.content.ContextCompat.startActivity
 import androidx.navigation.findNavController
 import com.euro.sticker.R
 import com.euro.sticker.databinding.ViewDrawerBinding
@@ -21,6 +23,7 @@ import dagger.hilt.android.WithFragmentBindings
 import javax.inject.Inject
 
 private const val TOTAL_STICKERS_COUNT = 654
+private const val INTENT_TEXT_TYPE = "text/plain"
 
 @AndroidEntryPoint
 class DrawerMenuView @JvmOverloads constructor(
@@ -55,6 +58,22 @@ class DrawerMenuView @JvmOverloads constructor(
             var percentage = ((it.toDouble() / TOTAL_STICKERS_COUNT) * 100).toInt()
             binding.currentStatsPercent.text = "$percentage%"
         }
+
+        binding.shareMissingStickers.setOnClickListener {
+            val string = String.format(context.getString(R.string.export_string), stickersGalleryViewModel.getMissingStickersString())
+            val sendIntent: Intent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, string)
+                type = INTENT_TEXT_TYPE
+            }
+
+            val shareIntent = Intent.createChooser(sendIntent, null)
+            context.startActivity(shareIntent)
+        }
+    }
+
+    private fun shareMissingStickers() {
+
     }
 
 //    override fun onAttachedToWindow() {

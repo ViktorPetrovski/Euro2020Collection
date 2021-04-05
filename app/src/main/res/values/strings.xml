@@ -15,6 +15,7 @@
     <string name="restore_all_stickers">Restore All Stickers</string>
     <string name="share_app">Share App</string>
     <string name="about">About</string>
-    <string name="export_stickers">Export Stickers</string>
+    <string name="share_missing">Share Missing Stickers</string>
     <string name="import_stickers">Import Stickers</string>
+    <string name="export_string">EURO 2020 Tournament Edition\n\nThese are my missing stickers:\n%s</string>
 </resources>

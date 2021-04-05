@@ -23,4 +23,7 @@
 
     <color name="orange">#D89C28</color>
     <color name="blue">#00AEB5</color>
+
+    <color name="positive">#1fd190</color>
+    <color name="negative">#FA6060</color>
 </resources>

@@ -3,16 +3,19 @@ package com.euro.sticker.gallery.ui.adapter
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
+import com.euro.sticker.gallery.ui.dialog.StickerDialogFragment
 import com.euro.sticker.gallery.ui.model.ContentType
 import com.euro.sticker.gallery.ui.model.StickerContent
 import com.euro.sticker.uicommon.base.recyclerview.ColumnItemDecoration
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.lifecycleOwner
 import dagger.hilt.android.AndroidEntryPoint
+import dagger.hilt.android.internal.managers.FragmentComponentManager
 import javax.inject.Inject
 
 private const val COLUMNS = 6
@@ -63,8 +66,12 @@ class StickersRecyclerView @JvmOverloads constructor(
     }
 
     private fun onItemClicked(item: StickerContent) {
-        val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
-        stickersGalleryViewModel.addAmount(item)
-        Toast.makeText(context, "Item: $item", Toast.LENGTH_LONG).show()
+        if (item.amount == 0) {
+            val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
+            stickersGalleryViewModel.addAmount(item)
+        } else {
+            val activity = FragmentComponentManager.findActivity(context)
+            StickerDialogFragment.show(activity as AppCompatActivity, item)
+        }
     }
 }

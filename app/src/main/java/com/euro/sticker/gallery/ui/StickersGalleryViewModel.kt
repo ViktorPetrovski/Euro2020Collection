@@ -80,6 +80,33 @@ class StickersGalleryViewModel @Inject constructor(
         }
     }
 
+    fun removeAmount(galleryContent: StickerContent) {
+        var indexOfItem = -1
+        var indexOfCategory = -1
+        stickersList.forEachIndexed { index, item ->
+            if (indexOfCategory != -1 && indexOfItem != -1)
+                return@forEachIndexed
+            else if (indexOfCategory == -1 && (item as? CategoryContent)?.categoryName == galleryContent.categoryName)
+                indexOfCategory = index
+            else if (indexOfItem == -1 && (item as? StickerContent)?.number == galleryContent.number)
+                indexOfItem = index
+        }
+        val newAmount = galleryContent.amount - 1
+        val category = stickersList[indexOfCategory] as CategoryContent
+        if (newAmount == 0) {
+            val updatedCategoryContent =
+                category.copy(collectedStickers = category.collectedStickers - 1)
+            stickersList[indexOfCategory] = updatedCategoryContent
+            totalOwned--
+            stickersOwnedCount.postValue(totalOwned)
+        }
+        stickersList[indexOfItem] = galleryContent.copy(amount = newAmount)
+        stickers.postValue(getDisplayList())
+        viewModelScope.launch {
+            repository.updateSticker(newAmount, galleryContent.number)
+        }
+    }
+
     private fun getDisplayList(): List<GalleryContent> {
         return when (selectedFilter) {
             ViewFilter.All -> stickersList
@@ -95,4 +122,8 @@ class StickersGalleryViewModel @Inject constructor(
     }
 
     fun getSelectedFilter() = selectedFilter
+
+    fun getMissingStickersString(): String {
+        return stickersList.filterIsInstance(StickerContent::class.java).filter { it.amount == 0  }.map { it.number }.joinToString(separator = ", ")
+    }
 }
