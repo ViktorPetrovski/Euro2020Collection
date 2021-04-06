@@ -28,6 +28,9 @@ class StickersGalleryViewModel @Inject constructor(
     private var stickersList = mutableListOf<GalleryContent>()
     private var selectedFilter = repository.getFilter()
 
+    private val _stickerAdded = MutableLiveData<StickerContent>()
+    val stickerAdded: LiveData<StickerContent> = _stickerAdded
+
     init {
         fetchInitialData()
     }
@@ -65,6 +68,7 @@ class StickersGalleryViewModel @Inject constructor(
                 indexOfItem = index
         }
         val newAmount = galleryContent.amount + 1
+        val newSticker = galleryContent.copy(amount = newAmount)
         val category = stickersList[indexOfCategory] as CategoryContent
         if (newAmount == 1) {
             val updatedCategoryContent =
@@ -72,8 +76,9 @@ class StickersGalleryViewModel @Inject constructor(
             stickersList[indexOfCategory] = updatedCategoryContent
             totalOwned++
             stickersOwnedCount.postValue(totalOwned)
+            _stickerAdded.postValue(newSticker)
         }
-        stickersList[indexOfItem] = galleryContent.copy(amount = newAmount)
+        stickersList[indexOfItem] = newSticker
         stickers.postValue(getDisplayList())
         viewModelScope.launch {
             repository.updateSticker(newAmount, galleryContent.number)

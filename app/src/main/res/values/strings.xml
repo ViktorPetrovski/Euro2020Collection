@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Euro 2020 Stickers Collection</string>
+    <string name="app_name">Euro 2020 Stickers Album</string>
+    <string name="header_title">Euro 2020\nStickers Album</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -18,4 +19,5 @@
     <string name="share_missing">Share Missing Stickers</string>
     <string name="import_stickers">Import Stickers</string>
     <string name="export_string">EURO 2020 Tournament Edition\n\nThese are my missing stickers:\n%s</string>
+    <string name="undo">Undo</string>
 </resources>

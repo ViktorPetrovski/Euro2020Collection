@@ -3,6 +3,8 @@ package com.euro.sticker.uicommon.base.viewmodel
 import android.content.Context
 import android.content.ContextWrapper
 import android.view.View
+import android.view.animation.Animation
+import android.view.animation.TranslateAnimation
 import androidx.annotation.IdRes
 import androidx.annotation.MainThread
 import androidx.annotation.NavigationRes
@@ -80,4 +82,33 @@ fun <VM : ViewModel> createViewModelLazy(
     factoryProducer: (() -> ViewModelProvider.Factory)
 ): Lazy<VM> {
     return ViewModelLazy(viewModelClass, storeProducer, factoryProducer)
+}
+
+fun View.slideUp() {
+    visibility = View.VISIBLE
+    val animate = TranslateAnimation(0f, 0f, this.height.toFloat(), 0f)
+    animate.duration = 200
+    animate.fillAfter = true
+    this.startAnimation(animate)
+}
+
+fun View.slideDown() {
+    visibility = View.VISIBLE
+    val animate = TranslateAnimation(0f, 0f, 0f, this.height.toFloat())
+    animate.duration = 200
+    animate.fillAfter = true
+    animate.setAnimationListener(object : Animation.AnimationListener {
+        override fun onAnimationRepeat(animation: Animation?) {
+            // no op
+        }
+
+        override fun onAnimationEnd(animation: Animation?) {
+            visibility = View.INVISIBLE
+        }
+
+        override fun onAnimationStart(animation: Animation?) {
+            // no op
+        }
+    })
+    this.startAnimation(animate)
 }

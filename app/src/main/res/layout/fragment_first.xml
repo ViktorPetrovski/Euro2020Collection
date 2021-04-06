@@ -20,7 +20,7 @@
         android:textColor="@color/white"
         android:gravity="center_horizontal"
         android:fontFamily="@font/beau_sans_pro_bold"
-        android:text="Euro 2020\nTournament Edition"
+        android:text="@string/header_title"
         app:layout_constraintTop_toBottomOf="@id/statusBar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -44,5 +44,14 @@
         app:layout_constraintTop_toBottomOf="@id/albumTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.euro.sticker.gallery.ui.dialog.StickerAddedView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
