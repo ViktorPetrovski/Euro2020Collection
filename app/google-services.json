@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995116303406",
+    "project_id": "euro-2020-stickers-album",
+    "storage_bucket": "euro-2020-stickers-album.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995116303406:android:8723ff1be1ab6a61990bbf",
+        "android_client_info": {
+          "package_name": "com.euro.sticker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995116303406-vhs4951s5qk6942j0naafuvg7mlir176.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXoOdqkpdbLrP6sPBhtp2cCFz5Ap8ZBI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995116303406-vhs4951s5qk6942j0naafuvg7mlir176.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

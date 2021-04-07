@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Euro 2020 Stickers Album</string>
+    <string name="app_name">Stickers Album</string>
     <string name="header_title">Euro 2020\nStickers Album</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
