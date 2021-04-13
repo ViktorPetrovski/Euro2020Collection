@@ -103,7 +103,7 @@ fun View.slideDown() {
         }
 
         override fun onAnimationEnd(animation: Animation?) {
-            visibility = View.INVISIBLE
+            visibility = View.GONE
         }
 
         override fun onAnimationStart(animation: Animation?) {
