@@ -18,6 +18,7 @@
     <string name="about">About</string>
     <string name="share_missing">Share Missing Stickers</string>
     <string name="import_stickers">Import Stickers</string>
-    <string name="export_string">EURO 2020 Tournament Edition\n\nThese are my missing stickers:\n%s</string>
+    <string name="export_string">Euro 2020 Stickers Albu‪m \n\nThese are my missing stickers:\n%s\n Get the app: http://tiny.cc/stickersAlbum</string>
     <string name="undo">Undo</string>
+    <string name="select_album">Select Album</string>
 </resources>

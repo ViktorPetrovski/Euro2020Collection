@@ -9,5 +9,13 @@
         android:id="@+id/StickersGalleryFragment"
         android:name="com.euro.sticker.gallery.ui.StickersFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first"></fragment>
+        tools:layout="@layout/fragment_first"/>
+
+
+    <fragment
+        android:id="@+id/SelectAlbumFragment"
+        android:name="com.euro.sticker.album_selection.SelectAlbumFragment"
+        android:label="@string/select_album"
+        tools:layout="@layout/fragment_select_album"/>
+
 </navigation>
