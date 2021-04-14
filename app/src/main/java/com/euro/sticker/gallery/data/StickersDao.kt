@@ -20,4 +20,10 @@ interface StickersDao {
 
     @Query("UPDATE StickerEntity SET number=:number WHERE uid=:uid")
     suspend fun updateStickerNumber(uid: Long, number: Int)
+
+    @Insert
+    suspend fun insertCategory(vararg categoryEntity: CategoryEntity)
+
+    @Insert
+    suspend fun insertStickers(vararg stickers: StickerEntity)
 }

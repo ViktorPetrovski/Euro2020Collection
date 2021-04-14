@@ -33,6 +33,9 @@ class StickersGalleryViewModel @Inject constructor(
 
     init {
         fetchInitialData()
+        viewModelScope.launch {
+            repository.fixDb()
+        }
     }
 
     private fun fetchInitialData() {

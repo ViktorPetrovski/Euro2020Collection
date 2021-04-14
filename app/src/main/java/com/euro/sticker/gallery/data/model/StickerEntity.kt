@@ -10,5 +10,6 @@ data class StickerEntity(
     @ColumnInfo(name = "name") val name: String,
     @ColumnInfo(name = "number") val number: Int,
     @ColumnInfo(name = "amount") val amount: Int = 0,
-    @ColumnInfo(name = "category_id") val categoryId: Long
+    @ColumnInfo(name = "category_id") val categoryId: Long,
+    @ColumnInfo(name = "album_id") val albumId: Long
 )

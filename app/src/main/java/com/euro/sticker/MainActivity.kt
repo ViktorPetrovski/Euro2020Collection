@@ -46,11 +46,6 @@ class MainActivity : AppCompatActivity() {
     private fun setupDrawer() {
         val navController = Navigation.findNavController(this, R.id.nav_host_fragment)
         binding.navView.setupWithNavController(navController)
-
-//        val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
-//        binding.navView.setOnFilterChangedListener {
-//            stickersGalleryViewModel.changeFilter(it)
-//        }
     }
 
     fun openDrawer() {

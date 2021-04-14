@@ -1,0 +1,6414 @@
+[
+   {
+      "position": 1,
+      "name": "Intro",
+      "logo": "",
+      "group": "",
+      "album": 1345,
+      "stickersCount": 6,
+      "stickers": [
+         {
+            "position": 1,
+            "name": "UEFA Euro 2020 Logo",
+            "countryPosition": 1,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 2,
+            "name": "European Championship Trophy",
+            "countryPosition": 1,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 3,
+            "name": "European Championship Trophy",
+            "countryPosition": 1,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 4,
+            "name": "’Skillzy",
+            "countryPosition": 1,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 5,
+            "name": "Sign for an Equal Game - Respect",
+            "countryPosition": 1,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 6,
+            "name": "Panini Logo - Carlo Parola",
+            "countryPosition": 1,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 2,
+      "name": "Group A Celebrations",
+      "logo": "",
+      "group": "A",
+      "album": 1345,
+      "stickersCount": 4,
+      "stickers": [
+         {
+            "position": 7,
+            "name": "Group A. Italy",
+            "countryPosition": 2,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 8,
+            "name": "Group A. Switzerland",
+            "countryPosition": 2,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 9,
+            "name": "Group A. Turkey",
+            "countryPosition": 2,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 10,
+            "name": "Group A. Wales",
+            "countryPosition": 2,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 3,
+      "name": "Italy",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/italy.png",
+      "group": "A",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 11,
+            "name": "Logo Italy",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 12,
+            "name": "Gianluigi Donnarumma",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 13,
+            "name": "Salvatore Sirigu",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 14,
+            "name": "Francesco Acerbi",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 15,
+            "name": "Alessandro Bastoni",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 16,
+            "name": "Leonardo Bonucci",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 17,
+            "name": "Giorgio Chiellini",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 18,
+            "name": "Emerson",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 19,
+            "name": "Alessandro Florenzi",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 20,
+            "name": "Nicolo Barella",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 21,
+            "name": "Jorginho",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 22,
+            "name": "Manuel Locatelli",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 23,
+            "name": "Lorenzo Pellegrini",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 24,
+            "name": "Marco Verratti",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 25,
+            "name": "Andrea Belotti",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 26,
+            "name": "Domenico Berardi",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 27,
+            "name": "Federico Bernardeschi",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 28,
+            "name": "Federico Chiesa",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 29,
+            "name": "Ciro Immobile",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 30,
+            "name": "Lorenzo Insigne",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 31,
+            "name": "Moise Kean",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 32,
+            "name": "Gianluigi Donnarumma / Franceso Acerbi",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 33,
+            "name": "Leonardo Bonucci / Emerson",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 34,
+            "name": "Alessandro Florenzi / Nicolo Barella",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 35,
+            "name": "Manuel Locatelli / Jorginho",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 36,
+            "name": "Ciro Immobile / Lorenzo Insigne",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 37,
+            "name": "Andrea Belotti / Federico Chiesa",
+            "countryPosition": 3,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 4,
+      "name": "Switzerland",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/switzerland.png",
+      "group": "A",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 38,
+            "name": "Yann Sommer / Manuel Akanji",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 39,
+            "name": "Nico Elvedi / Ricardo Rodríguez",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 40,
+            "name": "Remo Freuler / Xherdan Shaqiri",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 41,
+            "name": "Djibril Sow / Granit Xhaka",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 42,
+            "name": "Steven Zuber / Breel Embolo",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 43,
+            "name": "Admir Mehmedi / Haris Seferović",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 44,
+            "name": "Logo Switzerland",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 45,
+            "name": "Yann Sommer",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 46,
+            "name": "Yvon Mvogo",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 47,
+            "name": "Manuel Akanji",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 48,
+            "name": "Nico Elvedi",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 49,
+            "name": "Kevin Mbabu",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 50,
+            "name": "Ricardo Rodríguez",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 51,
+            "name": "Fabian Schär",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 52,
+            "name": "Silvan Widmer",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 53,
+            "name": "Edimilson Fernandes",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 54,
+            "name": "Remo Freuler",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 55,
+            "name": "Xherdan Shaqiri",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 56,
+            "name": "Djibril Sow",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 57,
+            "name": "Renato Steffen",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 58,
+            "name": "Granit Xhaka",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 59,
+            "name": "Denis Zakaria",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 60,
+            "name": "Steven Zuber",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 61,
+            "name": "Breel Embolo",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 62,
+            "name": "Mario Gavranović",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 63,
+            "name": "Admir Mehmedi",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 64,
+            "name": "Haris Seferović",
+            "countryPosition": 4,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 5,
+      "name": "Turkey",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/turkey.png",
+      "group": "A",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 65,
+            "name": "Logo Turkey",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 66,
+            "name": "Mert Günok",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 67,
+            "name": "Uğurcan Çakır",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 68,
+            "name": "Kaan Ayhan",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 69,
+            "name": "Zeki Çelik",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 70,
+            "name": "Merih Demiral",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 71,
+            "name": "Ozan Kabak",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 72,
+            "name": "Umut Meraş",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 73,
+            "name": "Nazim Sangaré",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 74,
+            "name": "Çağlar Söyüncü",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 75,
+            "name": "Hakan Çalhanoğlu",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 76,
+            "name": "Irfan Can Kahveci",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 77,
+            "name": "Mahmut Tekdemir",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 78,
+            "name": "Ozan Tufan",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 79,
+            "name": "Cengiz Ünder",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 80,
+            "name": "Yusuf Yazici",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 81,
+            "name": "Okay Yokuşlu",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 82,
+            "name": "Kenan Karaman",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 83,
+            "name": "Cenk Tosun",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 84,
+            "name": "Enes Ünal",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 85,
+            "name": "Burak Yilmaz",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 86,
+            "name": "Mert Günok / Zeki Çelik",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 87,
+            "name": "Merih Demiral / Ozan Kabak",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 88,
+            "name": "Umut Meraş / Çağlar Söyüncü",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 89,
+            "name": "Hakan Çalhanoğlu / Mahmut Tekdemir",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 90,
+            "name": "Ozan Tufan / Cengiz Ünder",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 91,
+            "name": "Kenan Karaman / Burak Yilmaz",
+            "countryPosition": 5,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 6,
+      "name": "Wales",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/wales.png",
+      "group": "A",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 92,
+            "name": "Wayne Hennessey / Ben Davies",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 93,
+            "name": "Chris Mepham / Connor Roberts",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 94,
+            "name": "Joe Rodon / Ethan Ampadu",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 95,
+            "name": "Daniel James / Joe Morrell",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 96,
+            "name": "Aaron Ramsey / Harry Wilson",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 97,
+            "name": "Gareth Bale / Kieffer Moore",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 98,
+            "name": "Logo Wales",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 99,
+            "name": "Wayne Hennessey",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 100,
+            "name": "Danny Ward",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 101,
+            "name": "Ben Davies",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 102,
+            "name": "Chris Gunter",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 103,
+            "name": "Tom Lockyer",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 104,
+            "name": "Chris Mepham",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 105,
+            "name": "Connor Roberts",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 106,
+            "name": "Joe Rodon",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 107,
+            "name": "Neco Williams",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 108,
+            "name": "Joe Allen",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 109,
+            "name": "Ethan Ampadu",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 110,
+            "name": "David Brooks",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 111,
+            "name": "Daniel James",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 112,
+            "name": "Joe Morrell",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 113,
+            "name": "Aaron Ramsey",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 114,
+            "name": "Jonathan Williams",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 115,
+            "name": "Harry Wilson",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 116,
+            "name": "Gareth Bale",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 117,
+            "name": "Rabbi Matondo",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 118,
+            "name": "Kieffer Moore",
+            "countryPosition": 6,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 7,
+      "name": "Group B Celebrations",
+      "logo": "",
+      "group": "B",
+      "album": 1345,
+      "stickersCount": 4,
+      "stickers": [
+         {
+            "position": 119,
+            "name": "Group B. Belgium",
+            "countryPosition": 7,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 120,
+            "name": "Group B. Denmark",
+            "countryPosition": 7,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 121,
+            "name": "Group B. Finland",
+            "countryPosition": 7,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 122,
+            "name": "Group B. Russia",
+            "countryPosition": 7,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 8,
+      "name": "Belgium",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/belgium.png",
+      "group": "B",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 123,
+            "name": "Logo Belgium",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 124,
+            "name": "Thibaut Courtois",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 125,
+            "name": "Simon Mignolet",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 126,
+            "name": "Toby Alderweireld",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 127,
+            "name": "Dedryck Boyata",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 128,
+            "name": "Timothy Castagne",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 129,
+            "name": "Jason Denayer",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 130,
+            "name": "Thomas Meunier",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 131,
+            "name": "Jan Vertonghen",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 132,
+            "name": "Kevin de Bruyne",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 133,
+            "name": "Dennis Praet",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 134,
+            "name": "Youri Tielemans",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 135,
+            "name": "Hans Vanaken",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 136,
+            "name": "Axel Witsel",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 137,
+            "name": "Michy Batshuayi",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 138,
+            "name": "Yannick Carrasco",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 139,
+            "name": "Jérémy Doku",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 140,
+            "name": "Eden Hazard",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 141,
+            "name": "Thorgan Hazard",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 142,
+            "name": "Romelu Lukaku",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 143,
+            "name": "Dries Mertens",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 144,
+            "name": "Thibaut Courtois / Toby Alderweireld",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 145,
+            "name": "Jason Denayer / Thomas Meunier",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 146,
+            "name": "Jan Vertonghen / Kevin de Bruyne",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 147,
+            "name": "Youri Tielemans / Axel Witsel",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 148,
+            "name": "Eden Hazard / Thorgan Hazard",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 149,
+            "name": "Romelu Lukaku / Dries Mertens",
+            "countryPosition": 8,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 9,
+      "name": "Danmark",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/danmark.png",
+      "group": "B",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 150,
+            "name": "Kasper Schmeichel / Andreas Christensen",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 151,
+            "name": "Mathias Jørgensen / Simon Kjær",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 152,
+            "name": "Joakim Mæhle / Thomas Delaney",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 153,
+            "name": "Christian Eriksen / Pierre Emile Højbjerg",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 154,
+            "name": "Daniel Wass / Martin Braithwaite",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 155,
+            "name": "Kasper Dolberg / Yussuf Poulsen",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 156,
+            "name": "Logo Danmark",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 157,
+            "name": "Kasper Schmeichel",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 158,
+            "name": "Frederik Rønnow",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 159,
+            "name": "Hamza Mendyl",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 160,
+            "name": "Andreas Christensen",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 161,
+            "name": "Simon Kjær",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 162,
+            "name": "Joakim Mæhle",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 163,
+            "name": "Jens Stryger Larsen",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 164,
+            "name": "Jannik Vestergaard",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 165,
+            "name": "Lucas Andersen",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 166,
+            "name": "Thomas Delaney",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 167,
+            "name": "Christian Eriksen",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 168,
+            "name": "Pierre Emile Højbjerg",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 169,
+            "name": "Mathias Jensen",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 170,
+            "name": "Daniel Wass",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 171,
+            "name": "Martin Braithwaite",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 172,
+            "name": "Kasper Dolberg",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 173,
+            "name": "Yussuf Poulsen",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 174,
+            "name": "Pione Sisto",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 175,
+            "name": "Robert Skov",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 176,
+            "name": "Jonas Wind",
+            "countryPosition": 9,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 10,
+      "name": "Finland",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/finland.png",
+      "group": "B",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 177,
+            "name": "Logo Finland",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 178,
+            "name": "Lukas Hradecky",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 179,
+            "name": "Jesse Joronen",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 180,
+            "name": "Nikolai Alho",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 181,
+            "name": "Paulus Arajuuri",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 182,
+            "name": "Daniel O'Shaughnessy",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 183,
+            "name": "Jukka Raitala",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 184,
+            "name": "Joona Toivio",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 185,
+            "name": "Jere Uronen",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 186,
+            "name": "Leo Väisänen",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 187,
+            "name": "Glen Kamara",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 188,
+            "name": "Joni Kauko",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 189,
+            "name": "Robin Lod",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 190,
+            "name": "Ilmari Niskanen",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 191,
+            "name": "Rasmus Schüller",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 192,
+            "name": "Pyry Soiri",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 193,
+            "name": "Tim Sparv",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 194,
+            "name": "Robert Taylor",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 195,
+            "name": "Frederik Jensen",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 196,
+            "name": "Joel Pohjanpalo",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 197,
+            "name": "Teemu Pukki",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 198,
+            "name": "Lukas Hradecky / Jukka Raitala",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 199,
+            "name": "Paulus Arajuuri / Daniel O'Shaughnessy",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 200,
+            "name": "Joona Toivio / Jere Uronen",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 201,
+            "name": "Glen Kamara / Robin Lod",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 202,
+            "name": "Robert Taylor / Tim Sparv",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 203,
+            "name": "Joel Pohjanpalo / Teemu Pukki",
+            "countryPosition": 10,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 11,
+      "name": "Russia",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/russia.png",
+      "group": "B",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 204,
+            "name": "Anton Shunin / Georgi Dzhikiya",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 205,
+            "name": "Fedor Kudryashov / Andrei Semenov",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 206,
+            "name": "Aleksei Ionov / Daler Kuzyaev",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 207,
+            "name": "Aleksei Miranchuk / Anton Miranchuk",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 208,
+            "name": "Magomed Ozdoev / Yuri Zhirkov",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 209,
+            "name": "Roman Zobnin / Artem Dzyuba",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 210,
+            "name": "Logo Russia",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 211,
+            "name": "Anton Shunin",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 212,
+            "name": "Guilherme",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 213,
+            "name": "Georgi Dzhikiya",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 214,
+            "name": "Vyacheslav Karavaev",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 215,
+            "name": "Fedor Kudryashov",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 216,
+            "name": "Mário Fernandes",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 217,
+            "name": "Andrei Semenov",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 218,
+            "name": "Zelimkhan Bakaev",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 219,
+            "name": "Denis Cheryshev",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 220,
+            "name": "Daniil Fomin",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 221,
+            "name": "Yuri Gazinski",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 222,
+            "name": "Aleksei Ionov",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 223,
+            "name": "Daler Kuzyaev",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 224,
+            "name": "Aleksei Miranchuk",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 225,
+            "name": "Anton Miranchuk",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 226,
+            "name": "Andrei Mostovoy",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 227,
+            "name": "Magomed Ozdoev",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 228,
+            "name": "Yuri Zhirkov",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 229,
+            "name": "Roman Zobnin",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 230,
+            "name": "Artem Dzyuba",
+            "countryPosition": 11,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 12,
+      "name": "Group C Celebrations",
+      "logo": "",
+      "group": "C",
+      "album": 1345,
+      "stickersCount": 4,
+      "stickers": [
+         {
+            "position": 231,
+            "name": "Group C. Austria",
+            "countryPosition": 12,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 232,
+            "name": "Group C. Netherlands",
+            "countryPosition": 12,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 233,
+            "name": "Group C. Macedonia",
+            "countryPosition": 12,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 234,
+            "name": "Group C. Ukraine",
+            "countryPosition": 12,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 13,
+      "name": "Austria",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/austria.png",
+      "group": "C",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 235,
+            "name": "Logo Austria",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 236,
+            "name": "Pavao Pervan",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 237,
+            "name": "Alexander Schlager",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 238,
+            "name": "David Alaba",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 239,
+            "name": "Aleksandar Dragovic",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 240,
+            "name": "Martin Hinteregger",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 241,
+            "name": "Stefan Lainer",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 242,
+            "name": "Stefan Posch",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 243,
+            "name": "Christopher Trimmel",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 244,
+            "name": "Andreas Ulmer",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 245,
+            "name": "Julian Baumgartlinger",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 246,
+            "name": "Christoph Baumgartner",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 247,
+            "name": "Florian Grillitsch",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 248,
+            "name": "Stefan Ilsanker",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 249,
+            "name": "Reinhold Ranftl",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 250,
+            "name": "Marcel Sabitzer",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 251,
+            "name": "Xaver Schlager",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 252,
+            "name": "Marko Arnautović",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 253,
+            "name": "Adrian Grbic",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 254,
+            "name": "Michael Gregoritsch",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 255,
+            "name": "Karim Onisiwo",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 256,
+            "name": "Pavao Pervan",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 257,
+            "name": "Aleksandar Dragovic / Martin Hinteregger",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 258,
+            "name": "Stefan Lainer / Julian Baumgartlinger",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 259,
+            "name": "Christoph Baumgartner / Stefan Ilsanker",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 260,
+            "name": "Marcel Sabitzer / Xaver Schlager",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 261,
+            "name": "Marko Arnautović / Michael Gregoritsch",
+            "countryPosition": 13,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 14,
+      "name": "Netherlands",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/netherlands.png",
+      "group": "C",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 262,
+            "name": "Jasper Cillessen / Daley Blind",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 263,
+            "name": "Matthijs de Ligt / Stefan de Vrij",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 264,
+            "name": "Hans Hateboer / Virgil van Dijk",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 265,
+            "name": "Frenkie de Jong / Donny van de Beek",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 266,
+            "name": "Georginio Wijnaldum / Steven Bergwijn",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 267,
+            "name": "Luuk de Jong / Memphis Depay",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 268,
+            "name": "Logo Netherlands",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 269,
+            "name": "Jasper Cillessen",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 270,
+            "name": "Tim Krul",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 271,
+            "name": "Nathan Aké",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 272,
+            "name": "Daley Blind",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 273,
+            "name": "Matthijs de Ligt",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 274,
+            "name": "Stefan de Vrij",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 275,
+            "name": "Denzel Dumfries",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 276,
+            "name": "Hans Hateboer",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 277,
+            "name": "Virgil van Dijk",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 278,
+            "name": "Joël Veltman",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 279,
+            "name": "Steven Berghuis",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 280,
+            "name": "Frenkie de Jong",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 281,
+            "name": "Marten de Roon",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 282,
+            "name": "Calvin Stengs",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 283,
+            "name": "Donny van de Beek",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 284,
+            "name": "Georginio Wijnaldum",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 285,
+            "name": "Ryan Babel",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 286,
+            "name": "Steven Bergwijn",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 287,
+            "name": "Luuk de Jong",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 288,
+            "name": "Memphis Depay",
+            "countryPosition": 14,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 15,
+      "name": "Macedonia",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/macedonia.png",
+      "group": "C",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 289,
+            "name": "Logo Macedonia",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 290,
+            "name": "Stole Dimitrievski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 291,
+            "name": "Damjan Shishkovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 292,
+            "name": "Egzon Bejtulai",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 293,
+            "name": "Visar Musliu",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 294,
+            "name": "Kire Ristevski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 295,
+            "name": "Stefan Ristovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 296,
+            "name": "Darko Velkovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 297,
+            "name": "Gjoko Zajkov",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 298,
+            "name": "Arijan Ademi",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 299,
+            "name": "Ezgjan Alioski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 300,
+            "name": "Enis Bardhi",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 301,
+            "name": "Eljif Elmas",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 302,
+            "name": "Tihomir Kostadinov",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 303,
+            "name": "Boban Nikolov",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 304,
+            "name": "Stefan Spirovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 305,
+            "name": "Ilija Nestorovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 306,
+            "name": "Goran Pandev",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 307,
+            "name": "Vlatko Stojanovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 308,
+            "name": "Aleksandar Trajkovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 309,
+            "name": "Ivan Trichkovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 310,
+            "name": "Stole Dimitrievski / Visar Musliu",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 311,
+            "name": "Stefan Ristovski / Darko Velkovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 312,
+            "name": "Arijan Ademi / Ezgjan Alioski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 313,
+            "name": "Enis Bardhi / Eljif Elmas",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 314,
+            "name": "Boban Nikolov / Stefan Spirovski",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 315,
+            "name": "Ilija Nestorovski / Goran Pandev",
+            "countryPosition": 15,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 16,
+      "name": "Ukraine",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/ukraine.png",
+      "group": "C",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 316,
+            "name": "Andriy Pyatov / Oleksandr Karavaev",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 317,
+            "name": "Mykola Matviyenko / Eduard Sobol",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 318,
+            "name": "Ilya Zabarnyi / Viktor Kovalenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 319,
+            "name": "Ruslan Malinovskyi / Marlos",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 320,
+            "name": "Viktor Tsygankov / Oleksandr Zinchenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 321,
+            "name": "Roman Yaremchuk / Andriy Yarmolenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 322,
+            "name": "Logo Ukraine",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 323,
+            "name": "Andriy Pyatov",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 324,
+            "name": "Georgiy Bushchan",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 325,
+            "name": "Oleksandr Karavaev",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 326,
+            "name": "Serhiy Kryvtsov",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 327,
+            "name": "Mykola Matviyenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 328,
+            "name": "Bogdan Mykhaylichenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 329,
+            "name": "Eduard Sobol",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 330,
+            "name": "Ilya Zabarnyi",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 331,
+            "name": "Ihor Kharatin",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 332,
+            "name": "Viktor Kovalenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 333,
+            "name": "Ruslan Malinovskyi",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 334,
+            "name": "Yevgen Makarenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 335,
+            "name": "Marlos",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 336,
+            "name": "Taras Stepanenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 337,
+            "name": "Serhiy Sydorchuk",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 338,
+            "name": "Viktor Tsygankov",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 339,
+            "name": "Oleksandr Zinchenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 340,
+            "name": "Oleksandr Zubkov",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 341,
+            "name": "Roman Yaremchuk",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 342,
+            "name": "Andriy Yarmolenko",
+            "countryPosition": 16,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 17,
+      "name": "Group D Celebrations",
+      "logo": "",
+      "group": "D",
+      "album": 1345,
+      "stickersCount": 4,
+      "stickers": [
+         {
+            "position": 343,
+            "name": "Group D. Croatia",
+            "countryPosition": 17,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 344,
+            "name": "Group D. Czech Republic",
+            "countryPosition": 17,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 345,
+            "name": "Group D. England",
+            "countryPosition": 17,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 346,
+            "name": "Group D. Scotland",
+            "countryPosition": 17,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 18,
+      "name": "Croatia",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/croatia.png",
+      "group": "D",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 347,
+            "name": "Logo Croatia",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 348,
+            "name": "Dominik Livaković",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 349,
+            "name": "Simon Sluga",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 350,
+            "name": "Borna Barišić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 351,
+            "name": "Duje Ćaleta-Car",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 352,
+            "name": "Dejan Lovren",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 353,
+            "name": "Dario Melnjak",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 354,
+            "name": "Filip Uremović",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 355,
+            "name": "Domagoj Vida",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 356,
+            "name": "Šime Vrsaljko",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 357,
+            "name": "Milan Badelj",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 358,
+            "name": "Marcelo Brozović",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 359,
+            "name": "Mateo Kovačić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 360,
+            "name": "Luka Modrić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 361,
+            "name": "Mario Pašalić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 362,
+            "name": "Nikola Vlašić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 363,
+            "name": "Josip Brekalo",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 364,
+            "name": "Andrej Kramarić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 365,
+            "name": "Ivan Perišić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 366,
+            "name": "Bruno Petković",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 367,
+            "name": "Ante Rebić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 368,
+            "name": "Dominik Livaković / Duje Ćaleta-Car",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 369,
+            "name": "Dejan Lovren / Domagoj Vida",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 370,
+            "name": "Marcelo Brozović / Mateo Kovačić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 371,
+            "name": "Luka Modrić / Mario Pašalić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 372,
+            "name": "Nikola Vlašić / Josip Brekalo",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 373,
+            "name": "Andrej Kramarić / Ivan Perišić",
+            "countryPosition": 18,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 19,
+      "name": "Czech Republic",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/czech.png",
+      "group": "D",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 374,
+            "name": "Tomáš Vaclík / Jan Bořil",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 375,
+            "name": "Ondřej Čelůstka / Vladimír Coufal",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 376,
+            "name": "Pavel Kadeřábek / Vladimír Darida",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 377,
+            "name": "Bořek Dočkal / Jakub Jankto",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 378,
+            "name": "Alex Král / Lukáš Masopust",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 379,
+            "name": "Tomáš Souček / Matěj Vydra",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 380,
+            "name": "Logo Czech Republic",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 381,
+            "name": "Tomáš Vaclík",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 382,
+            "name": "Jiří Pavlenka",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 383,
+            "name": "Jan Bořil",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 384,
+            "name": "Jakub Brabec",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 385,
+            "name": "Ondřej Čelůstka",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 386,
+            "name": "Vladimír Coufal",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 387,
+            "name": "Pavel Kadeřábek",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 388,
+            "name": "Ondřej Kúdela",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 389,
+            "name": "Antonín Barák",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 390,
+            "name": "Vladimír Darida",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 391,
+            "name": "Bořek Dočkal",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 392,
+            "name": "Jakub Jankto",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 393,
+            "name": "Alex Král",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 394,
+            "name": "Lukáš Masopust",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 395,
+            "name": "Petr Ševčík",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 396,
+            "name": "Tomáš Souček",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 397,
+            "name": "Michael Krmenčík",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 398,
+            "name": "Zdeněk Ondrášek",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 399,
+            "name": "Patrik Schick",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 400,
+            "name": "Matěj Vydra",
+            "countryPosition": 19,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 20,
+      "name": "England",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/england.png",
+      "group": "D",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 401,
+            "name": "Logo England",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 402,
+            "name": "Jordan Pickford",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 403,
+            "name": "Nick Pope",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 404,
+            "name": "Trent Alexander-Arnold",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 405,
+            "name": "Ben Chilwell",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 406,
+            "name": "Conor Coady",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 407,
+            "name": "Harry Maguire",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 408,
+            "name": "Tyrone Mings",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 409,
+            "name": "Kieran Trippier",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 410,
+            "name": "Kyle Walker",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 411,
+            "name": "Eric Dier",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 412,
+            "name": "Phil Foden",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 413,
+            "name": "Jack Grealish",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 414,
+            "name": "Jordan Henderson",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 415,
+            "name": "Mason Mount",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 416,
+            "name": "Declan Rice",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 417,
+            "name": "Dominic Calvert-Lewin",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 418,
+            "name": "Harry Kane",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 419,
+            "name": "Marcus Rashford",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 420,
+            "name": "Jadon Sancho",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 421,
+            "name": "Raheem Sterling",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 422,
+            "name": "Jordan Pickford / Trent Alexander-Arnold",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 423,
+            "name": "Harry Maguire / Kieran Trippier",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 424,
+            "name": "Kyle Walker / Eric Dier",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 425,
+            "name": "Mason Mount / Declan Rice",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 426,
+            "name": "Harry Kane / Marcus Rashford",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 427,
+            "name": "Jadon Sancho / Raheem Sterling",
+            "countryPosition": 20,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 21,
+      "name": "Scotland",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/scotland.png",
+      "group": "D",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 428,
+            "name": "David Marshall / Declan Gallagher",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 429,
+            "name": "Stephen O'Donnell / Andrew Robertson",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 430,
+            "name": "Kieran Tierney / Ryan Christie",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 431,
+            "name": "Ryan Jack / John McGinn",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 432,
+            "name": "Callum McGregor / Scott McTominay",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 433,
+            "name": "Lyndon Dykes / Ryan Fraser",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 434,
+            "name": "Logo Scotland",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 435,
+            "name": "David Marshall",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 436,
+            "name": "Craig Gordon",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 437,
+            "name": "Liam Cooper",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 438,
+            "name": "Declan Gallagher",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 439,
+            "name": "Scott McKenna",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 440,
+            "name": "Stephen O'Donnell",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 441,
+            "name": "Liam Palmer",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 442,
+            "name": "Andrew Robertson",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 443,
+            "name": "Kieran Tierney",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 444,
+            "name": "Stuart Armstrong",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 445,
+            "name": "Ryan Christie",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 446,
+            "name": "James Forrest",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 447,
+            "name": "Ryan Jack",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 448,
+            "name": "John McGinn",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 449,
+            "name": "Callum McGregor",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 450,
+            "name": "Kenny McLean",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 451,
+            "name": "Scott McTominay",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 452,
+            "name": "Lyndon Dykes",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 453,
+            "name": "Ryan Fraser",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 454,
+            "name": "Oliver McBurnie",
+            "countryPosition": 21,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 22,
+      "name": "Group E Celebrations",
+      "logo": "",
+      "group": "",
+      "album": 1345,
+      "stickersCount": 4,
+      "stickers": [
+         {
+            "position": 455,
+            "name": "Group E. Poland",
+            "countryPosition": 22,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 456,
+            "name": "Group E. Slovakia",
+            "countryPosition": 22,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 457,
+            "name": "Group E. Spain",
+            "countryPosition": 22,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 458,
+            "name": "Group E. Sweden",
+            "countryPosition": 22,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 23,
+      "name": "Poland",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/poland.png",
+      "group": "E",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 459,
+            "name": "Logo Poland",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 460,
+            "name": "Wojciech Szczęsny",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 461,
+            "name": "Łukasz Fabiański",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 462,
+            "name": "Jan Bednarek",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 463,
+            "name": "Bartosz Bereszyński",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 464,
+            "name": "Kamil Glik",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 465,
+            "name": "Tomasz Kędziora",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 466,
+            "name": "Arkadiusz Reca",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 467,
+            "name": "Maciej Rybus",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 468,
+            "name": "Sebastian Walukiewicz",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 469,
+            "name": "Jacek Góralski",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 470,
+            "name": "Kamil Grosicki",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 471,
+            "name": "Kamil Jóźwiak",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 472,
+            "name": "Mateusz Klich",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 473,
+            "name": "Grzegorz Krychowiak",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 474,
+            "name": "Karol Linetty",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 475,
+            "name": "Sebastian Szymański",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 476,
+            "name": "Piotr Zieliński",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 477,
+            "name": "Robert Lewandowski",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 478,
+            "name": "Arkadiusz Milik",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 479,
+            "name": "Krzysztof Piątek",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 480,
+            "name": "Wojciech Szczęsny / Jan Bednarek",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 481,
+            "name": "Kamil Glik / Tomasz Kędziora",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 482,
+            "name": "Kamil Grosicki / Kamil Jóźwiak",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 483,
+            "name": "Mateusz Klich / Grzegorz Krychowiak",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 484,
+            "name": "Piotr Zieliński / Robert Lewandowski",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 485,
+            "name": "Arkadiusz Milik / Krzysztof Piątek",
+            "countryPosition": 23,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 24,
+      "name": "Slovakia",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/slovakia.png",
+      "group": "E",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 486,
+            "name": "Marek Rodák / Peter Pekarík",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 487,
+            "name": "Ľubomír Šatka / Milan Škriniar",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 488,
+            "name": "Ondrej Duda / Marek Hamšík",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 489,
+            "name": "Patrik Hrošovský / Juraj Kucka",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 490,
+            "name": "Stanislav Lobotka / Róbert Mak",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 491,
+            "name": "Albert Rusnák / Róbert Boženík",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 492,
+            "name": "Logo Slovakia",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 493,
+            "name": "Marek Rodák",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 494,
+            "name": "Dominik Greif",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 495,
+            "name": "Dávid Hancko",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 496,
+            "name": "Róbert Mazáň",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 497,
+            "name": "Peter Pekarík",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 498,
+            "name": "Ľubomír Šatka",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 499,
+            "name": "Milan Škriniar",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 500,
+            "name": "Martin Valjent",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 501,
+            "name": "Denis Vavro",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 502,
+            "name": "Ondrej Duda",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 503,
+            "name": "Ján Greguš",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 504,
+            "name": "Marek Hamšík",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 505,
+            "name": "Lukáš Haraslín",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 506,
+            "name": "Patrik Hrošovský",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 507,
+            "name": "Juraj Kucka",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 508,
+            "name": "Stanislav Lobotka",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 509,
+            "name": "Róbert Mak",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 510,
+            "name": "Albert Rusnák",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 511,
+            "name": "Róbert Boženík",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 512,
+            "name": "Michal Ďuriš",
+            "countryPosition": 24,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 25,
+      "name": "Spain",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/spain.png",
+      "group": "E",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 513,
+            "name": "Logo Spain",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 514,
+            "name": "Unai Simón",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 515,
+            "name": "David de Gea",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 516,
+            "name": "Daniel Carvajal",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 517,
+            "name": "José Gayà",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 518,
+            "name": "Eric García",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 519,
+            "name": "Jesús Navas",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 520,
+            "name": "Pau Torres",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 521,
+            "name": "Sergio Ramos",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 522,
+            "name": "Sergio Canales",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 523,
+            "name": "Dani Olmo",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 524,
+            "name": "Koke",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 525,
+            "name": "Rodri",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 526,
+            "name": "Fabián Ruiz",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 527,
+            "name": "Sergio Busquets",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 528,
+            "name": "Thiago",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 529,
+            "name": "Ansu Fati",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 530,
+            "name": "Álvaro Morata",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 531,
+            "name": "Gerard Moreno",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 532,
+            "name": "Mikel Oyarzabal",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 533,
+            "name": "Ferran Torres",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 534,
+            "name": "Unai Simón / Jesús Navas",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 535,
+            "name": "Pau Torres / Sergio Ramos",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 536,
+            "name": "Dani Olmo / Rodri",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 537,
+            "name": "Fabián Ruiz / Thiago",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 538,
+            "name": "Ansu Fati / Álvaro Morata",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 539,
+            "name": "Gerard Moreno / Ferran Torres",
+            "countryPosition": 25,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 26,
+      "name": "Sweden",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/sweden.png",
+      "group": "E",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 540,
+            "name": "Robin Olsen / Ludwig Augustinsson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 541,
+            "name": "Mikael Lustig / Victor Nilsson Lindelöf",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 542,
+            "name": "Viktor Claesson / Albin Ekdal",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 543,
+            "name": "Emil Forsberg / Sebastian Larsson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 544,
+            "name": "Kristoffer Olsson / Marcus Berg",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 545,
+            "name": "Alexander Isak / Dejan Kulusevski",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 546,
+            "name": "Logo Sweden",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 547,
+            "name": "Robin Olsen",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 548,
+            "name": "Ludwig Augustinsson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 549,
+            "name": "Emil Krafth",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 550,
+            "name": "Marcus Danielson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 551,
+            "name": "Andreas Granqvist",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 552,
+            "name": "Filip Helander",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 553,
+            "name": "Pontus Jansson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 554,
+            "name": "Mikael Lustig",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 555,
+            "name": "Victor Nilsson Lindelöf",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 556,
+            "name": "Viktor Claesson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 557,
+            "name": "Albin Ekdal",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 558,
+            "name": "Emil Forsberg",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 559,
+            "name": "Sebastian Larsson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 560,
+            "name": "Kristoffer Olsson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 561,
+            "name": "Mattias Svanberg",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 562,
+            "name": "Gustav Svensson",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 563,
+            "name": "Marcus Berg",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 564,
+            "name": "Alexander Isak",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 565,
+            "name": "Dejan Kulusevski",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 566,
+            "name": "Robin Quaison",
+            "countryPosition": 26,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 27,
+      "name": "Group F Celebrations",
+      "logo": "",
+      "group": "F",
+      "album": 1345,
+      "stickersCount": 4,
+      "stickers": [
+         {
+            "position": 567,
+            "name": "Group F. France",
+            "countryPosition": 27,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 568,
+            "name": "Group F. Germany",
+            "countryPosition": 27,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 569,
+            "name": "Group F. Hungary",
+            "countryPosition": 27,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 570,
+            "name": "Group F. Portugal",
+            "countryPosition": 27,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 28,
+      "name": "France",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/france.png",
+      "group": "F",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 571,
+            "name": "Logo France",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 572,
+            "name": "Hugo Lloris",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 573,
+            "name": "Steve Mandanda",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 574,
+            "name": "Lucas Digne",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 575,
+            "name": "Lucas Hernández",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 576,
+            "name": "Presnel Kimpembe",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 577,
+            "name": "Clément Lenglet",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 578,
+            "name": "Benjamin Pavard",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 579,
+            "name": "Dayot Upamecano",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 580,
+            "name": "Raphaël Varane",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 581,
+            "name": "Eduardo Camavinga",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 582,
+            "name": "N’Golo Kanté",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 583,
+            "name": "Steven Nzonzi",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 584,
+            "name": "Paul Pogba",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 585,
+            "name": "Adrien Rabiot",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 586,
+            "name": "Moussa Sissoko",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 587,
+            "name": "Kingsley Coman",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 588,
+            "name": "Olivier Giroud",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 589,
+            "name": "Antoine Griezmann",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 590,
+            "name": "Anthony Martial",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 591,
+            "name": "Kylian Mbappé",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 592,
+            "name": "Hugo Lloris / Lucas Hernández",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 593,
+            "name": "Clément Lenglet / Benjamin Pavard",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 594,
+            "name": "Raphaël Varane / N’Golo Kanté",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 595,
+            "name": "Paul Pogba / Moussa Sissoko",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 596,
+            "name": "Kingsley Coman / Olivier Giroud",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 597,
+            "name": "Antoine Griezmann / Kylian Mbappé",
+            "countryPosition": 28,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 29,
+      "name": "Germany",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/germany.png",
+      "group": "F",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 598,
+            "name": "Manuel Neuer / Matthias Ginter",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 599,
+            "name": "Antonio Rüdiger / Julian Brandt",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 600,
+            "name": "Emre Can / Julian Draxler",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 601,
+            "name": "İlkay Gündoğan / Kai Havertz",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 602,
+            "name": "Joshua Kimmich / Toni Kroos",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 603,
+            "name": "Serge Gnabry / Timo Werner",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 604,
+            "name": "Logo Germany",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 605,
+            "name": "Manuel Neuer",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 606,
+            "name": "Bernd Leno",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 607,
+            "name": "Matthias Ginter",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 608,
+            "name": "Thilo Kehrer",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 609,
+            "name": "Lukas Klostermann",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 610,
+            "name": "Robin Koch",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 611,
+            "name": "Antonio Rüdiger",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 612,
+            "name": "Jonathan Tah",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 613,
+            "name": "Julian Brandt",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 614,
+            "name": "Emre Can",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 615,
+            "name": "Julian Draxler",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 616,
+            "name": "Leon Goretzka",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 617,
+            "name": "İlkay Gündoğan",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 618,
+            "name": "Kai Havertz",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 619,
+            "name": "Joshua Kimmich",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 620,
+            "name": "Toni Kroos",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 621,
+            "name": "Serge Gnabry",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 622,
+            "name": "Leroy Sané",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 623,
+            "name": "Luca Waldschmidt",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 624,
+            "name": "Timo Werner",
+            "countryPosition": 29,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 30,
+      "name": "Hungary",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/hungary.png",
+      "group": "F",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 625,
+            "name": "Logo Hungary",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 626,
+            "name": "Péter Gulácsi",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 627,
+            "name": "Dénes Dibusz",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 628,
+            "name": "Barnabás Bese",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 629,
+            "name": "Endre Botka",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 630,
+            "name": "Attila Fiola",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 631,
+            "name": "Szilveszter Hangya",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 632,
+            "name": "Ádám Lang",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 633,
+            "name": "Willi Orban",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 634,
+            "name": "Attila Szalai",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 635,
+            "name": "Zsolt Kalmár",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 636,
+            "name": "Gergő Lovrencsics",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 637,
+            "name": "Ádám Nagy",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 638,
+            "name": "Loic Nego",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 639,
+            "name": "Dávid Sigér",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 640,
+            "name": "Dominik Szoboszlai",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 641,
+            "name": "Filip Holender",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 642,
+            "name": "Norbert Könyves",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 643,
+            "name": "Nemanja Nikolics",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 644,
+            "name": "Roland Sallai",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 645,
+            "name": "Ádám Szalai",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 646,
+            "name": "Péter Gulácsi / Endre Botka",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 647,
+            "name": "Attila Fiola / Ádám Lang",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 648,
+            "name": "Willi Orban / Attila Szalai",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 649,
+            "name": "Zsolt Kalmár / Ádám Nagy",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 650,
+            "name": "Dominik Szoboszlai / Filip Holender",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 651,
+            "name": "Roland Sallai / Ádám Szalai",
+            "countryPosition": 30,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   },
+   {
+      "position": 31,
+      "name": "Portugal",
+      "logo": "https://s3.amazonaws.com/com.ssdevteam.stickers/uploads/portugal.png",
+      "group": "F",
+      "album": 1345,
+      "stickersCount": 27,
+      "stickers": [
+         {
+            "position": 652,
+            "name": "Rui Patrício / João Cancelo",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 653,
+            "name": "Pepe / Raphaël Guerreiro",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 654,
+            "name": "Rúben Dias / Bernardo Silva",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 655,
+            "name": "Bruno Fernandes / Danilo Pereira",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 656,
+            "name": "Rúben Neves / Diogo Jota",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 657,
+            "name": "Cristiano Ronaldo / João Félix",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 658,
+            "name": "Logo Portugal",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 659,
+            "name": "Rui Patrício",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 660,
+            "name": "Anthony Lopes",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 661,
+            "name": "João Cancelo",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 662,
+            "name": "José Fonte",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 663,
+            "name": "Mário Rui",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 664,
+            "name": "Nélson Semedo",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 665,
+            "name": "Pepe",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 666,
+            "name": "Raphaël Guerreiro",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 667,
+            "name": "Rúben Dias",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 668,
+            "name": "Bernardo Silva",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 669,
+            "name": "Bruno Fernandes",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 670,
+            "name": "Danilo Pereira",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 671,
+            "name": "João Moutinho",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 672,
+            "name": "Renato Sanches",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 673,
+            "name": "Rúben Neves",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 674,
+            "name": "William Carvalho",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 675,
+            "name": "Diogo Jota",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 676,
+            "name": "Cristiano Ronaldo",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 677,
+            "name": "João Félix",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         },
+         {
+            "position": 678,
+            "name": "Francisco Trincão",
+            "countryPosition": 31,
+            "isFound": false,
+            "isShiny": false,
+            "album": 1345,
+            "duplicateCount": 0
+         }
+      ]
+   }
+]
