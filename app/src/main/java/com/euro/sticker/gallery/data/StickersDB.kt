@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.euro.sticker.gallery.data.model.AlbumEntity
 import com.euro.sticker.gallery.data.model.CategoryEntity
 import com.euro.sticker.gallery.data.model.StickerEntity
 import dagger.Module
@@ -16,7 +17,7 @@ import javax.inject.Singleton
 private const val DB_ASSETS_FILE = "database/StickersDBFull.db"
 private const val DB_NAME = "StickersDB"
 
-@Database(entities = [StickerEntity::class, CategoryEntity::class], version = 2)
+@Database(entities = [StickerEntity::class, CategoryEntity::class, AlbumEntity::class], version = 2)
 abstract class StickersDB : RoomDatabase() {
     abstract fun stickersDao(): StickersDao
 }

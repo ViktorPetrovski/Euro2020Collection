@@ -44,14 +44,14 @@ class MainActivity : AppCompatActivity() {
         binding.root.doOnApplyWindowInsets { _, windowInsets, initialPadding ->
             binding.navView.applyWindowInsets(windowInsets.systemWindowInsetTop)
         }
-        val graph = findNavController(R.id.nav_host_fragment).graph
-
-        val startDestination = if (repository.isAlbumSelected())
-            R.id.StickersGalleryFragment
-        else
-            R.id.StickersGalleryFragment
-        graph.startDestination = startDestination
-        findNavController(R.id.nav_host_fragment).graph = graph
+//        val graph = findNavController(R.id.nav_host_fragment).graph
+//
+//        val startDestination = if (repository.isAlbumSelected())
+//            R.id.StickersGalleryFragment
+//        else
+//            R.id.StickersGalleryFragment
+//        graph.startDestination = startDestination
+//        findNavController(R.id.nav_host_fragment).graph = graph
     }
 
     private fun setupDrawer() {

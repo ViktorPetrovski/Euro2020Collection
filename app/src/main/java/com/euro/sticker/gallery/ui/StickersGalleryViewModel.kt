@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.euro.sticker.album_selection.AlbumModel
 import com.euro.sticker.gallery.data.Repository
 import com.euro.sticker.gallery.domain.model.ViewFilter
 import com.euro.sticker.gallery.ui.model.CategoryContent
@@ -30,6 +31,9 @@ class StickersGalleryViewModel @Inject constructor(
 
     private val _stickerAdded = MutableLiveData<StickerContent>()
     val stickerAdded: LiveData<StickerContent> = _stickerAdded
+
+    private val _allAlbums = MutableLiveData<List<AlbumModel>>()
+    val allAlbums: LiveData<List<AlbumModel>> = _allAlbums
 
     init {
         fetchInitialData()
@@ -133,5 +137,15 @@ class StickersGalleryViewModel @Inject constructor(
 
     fun getMissingStickersString(): String {
         return stickersList.filterIsInstance(StickerContent::class.java).filter { it.amount == 0  }.map { it.number }.joinToString(separator = ", ")
+    }
+
+    fun loadAlbums() {
+        viewModelScope.launch {
+            _allAlbums.postValue(repository.getAllAlbums())
+        }
+    }
+
+    fun albumSelected(albumModel: AlbumModel) {
+        repository.changeSelectedAlbum(albumId = albumModel.albumId)
     }
 }
