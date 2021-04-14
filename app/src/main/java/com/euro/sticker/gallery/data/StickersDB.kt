@@ -14,10 +14,10 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-private const val DB_ASSETS_FILE = "database/StickersDBFull.db"
+private const val DB_ASSETS_FILE = "database/StickersDB.db"
 private const val DB_NAME = "StickersDB"
 
-@Database(entities = [StickerEntity::class, CategoryEntity::class, AlbumEntity::class], version = 2)
+@Database(entities = [StickerEntity::class, CategoryEntity::class, AlbumEntity::class], version = 4)
 abstract class StickersDB : RoomDatabase() {
     abstract fun stickersDao(): StickersDao
 }
@@ -38,7 +38,9 @@ class DatabaseModule {
             StickersDB::class.java,
             DB_NAME
         ).createFromAsset(DB_ASSETS_FILE)
-            .addMigrations(MIRATION_1_2)
+            .addMigrations(MIGRATION_1_2)
+            .addMigrations(MIGRATION_2_3)
+            .addMigrations(MIGRATION_3_4)
             .build()
     }
 }
