@@ -34,9 +34,11 @@ class Repository @Inject constructor(
             return true
         // Count of first album
         val count = stickersDao.getAlbumsWithTotalCount().firstOrNull() ?: return false
-        if (count > PREDEFINED_ALBUM_COUNT)
+        return if (count > PREDEFINED_ALBUM_COUNT) {
             mySharedPreferences.changeSelectedAlbum(DEFAULT_ALBUM_ID)
-        return true
+            true
+        } else
+            false
     }
 
     fun changeSelectedAlbum(albumId: Int) = mySharedPreferences.changeSelectedAlbum(albumId)
