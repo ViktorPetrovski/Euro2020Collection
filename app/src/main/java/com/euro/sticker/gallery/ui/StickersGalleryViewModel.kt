@@ -10,6 +10,7 @@ import com.euro.sticker.gallery.domain.model.ViewFilter
 import com.euro.sticker.gallery.ui.model.CategoryContent
 import com.euro.sticker.gallery.ui.model.GalleryContent
 import com.euro.sticker.gallery.ui.model.StickerContent
+import com.euro.sticker.uicommon.base.viewmodel.SingleLiveEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -29,7 +30,7 @@ class StickersGalleryViewModel @Inject constructor(
     private var stickersList = mutableListOf<GalleryContent>()
     private var selectedFilter = repository.getFilter()
 
-    private val _stickerAdded = MutableLiveData<StickerContent>()
+    private val _stickerAdded = SingleLiveEvent<StickerContent>()
     val stickerAdded: LiveData<StickerContent> = _stickerAdded
 
     private val _allAlbums = MutableLiveData<List<AlbumModel>>()

@@ -21,9 +21,22 @@
     <color name="color_dark_grey">#707379</color>
     <color name="color_basic_medium_grey">#999999</color>
 
+    <color name="album_not_selected_border">#BDBDBD</color>
+    <color name="album_selected_border">#1fd190</color>
+
     <color name="orange">#D89C28</color>
     <color name="blue">#00AEB5</color>
 
     <color name="positive">#1fd190</color>
     <color name="negative">#FA6060</color>
+
+    <color name="blue_album_color">#018FAE</color>
+    <color name="orange_album_color">#E6AE3A</color>
+    <color name="perl_album_color">#799AAE</color>
+
+    <string-array name="album_color">
+        <item>@color/blue_album_color</item>
+        <item>@color/orange_album_color</item>
+        <item>@color/perl_album_color</item>
+    </string-array>
 </resources>

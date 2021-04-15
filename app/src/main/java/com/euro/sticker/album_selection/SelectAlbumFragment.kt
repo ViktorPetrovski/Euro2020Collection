@@ -14,6 +14,7 @@ import com.euro.sticker.gallery.ui.StickersGalleryViewModel
 import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.isFragmentRemovedFromBackStack
+import com.google.android.gms.common.util.Strings
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -54,9 +55,14 @@ class SelectAlbumFragment : Fragment() {
     }
 
     private fun onAlbumClicked(albumModel: AlbumModel) {
+        if (albumModel.isSelected) {
+            findNavController().popBackStack()
+            return
+        }
         val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
         stickersGalleryViewModel.albumSelected(albumModel)
-        Toast.makeText(context, "Selected: ${albumModel.name}", Toast.LENGTH_LONG).show()
+        val albumSelected = String.format(getString(R.string.album_selected), albumModel.name)
+        Toast.makeText(context, albumSelected, Toast.LENGTH_LONG).show()
         findNavController().navigate(R.id.action_First_Launch_Gallery_Fragment)
     }
 

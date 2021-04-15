@@ -24,4 +24,6 @@
     <string name="undo">Undo</string>
     <string name="select_album">Select Album</string>
     <string name="change_album">Change Album</string>
+    <string name="active_album">Currently Selected</string>
+    <string name="album_selected">Selected: %s</string>
 </resources>
