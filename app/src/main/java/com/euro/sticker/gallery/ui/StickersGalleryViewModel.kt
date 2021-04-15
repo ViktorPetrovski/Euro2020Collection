@@ -137,6 +137,10 @@ class StickersGalleryViewModel @Inject constructor(
         return stickersList.filterIsInstance(StickerContent::class.java).filter { it.amount == 0  }.map { it.number }.joinToString(separator = ", ")
     }
 
+    fun getDuplicateStickersString(): String {
+        return stickersList.filterIsInstance(StickerContent::class.java).filter { it.amount > 1  }.map { it.number }.joinToString(separator = ", ")
+    }
+
     fun loadAlbums() {
         viewModelScope.launch {
             _allAlbums.postValue(repository.getAllAlbums())

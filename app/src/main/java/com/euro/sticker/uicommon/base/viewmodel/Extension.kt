@@ -112,3 +112,11 @@ fun View.slideDown() {
     })
     this.startAnimation(animate)
 }
+
+fun NavController.isFragmentRemovedFromBackStack(destinationId: Int) =
+    try {
+        getBackStackEntry(destinationId)
+        false
+    } catch (e: Exception) {
+        true
+    }

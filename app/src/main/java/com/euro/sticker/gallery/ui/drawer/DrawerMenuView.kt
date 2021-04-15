@@ -1,28 +1,19 @@
 package com.euro.sticker.gallery.ui.drawer
 
-import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
 import androidx.navigation.Navigation
-import androidx.navigation.findNavController
 import com.euro.sticker.MainActivity
 import com.euro.sticker.R
 import com.euro.sticker.databinding.ViewDrawerBinding
 import com.euro.sticker.gallery.domain.model.ViewFilter
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
-import com.euro.sticker.uicommon.base.applyTopWindowInsetsPadding
-import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
-import com.euro.sticker.uicommon.base.viewmodel.createViewModelLazy
-import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
 import com.euro.sticker.uicommon.base.viewmodel.lifecycleOwner
 import com.google.android.material.navigation.NavigationView
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.WithFragmentBindings
 import javax.inject.Inject
 
 private const val TOTAL_STICKERS_COUNT = 654
@@ -63,15 +54,13 @@ class DrawerMenuView @JvmOverloads constructor(
         }
 
         binding.shareMissingStickers.setOnClickListener {
-            val string = String.format(context.getString(R.string.export_string), stickersGalleryViewModel.getMissingStickersString())
-            val sendIntent: Intent = Intent().apply {
-                action = Intent.ACTION_SEND
-                putExtra(Intent.EXTRA_TEXT, string)
-                type = INTENT_TEXT_TYPE
-            }
+            val missingStickersString = String.format(context.getString(R.string.missing_stickers_share), stickersGalleryViewModel.getMissingStickersString())
+            shareStickers(missingStickersString)
+        }
 
-            val shareIntent = Intent.createChooser(sendIntent, null)
-            context.startActivity(shareIntent)
+        binding.shareDuplicatestickers.setOnClickListener {
+            val missingStickersString = String.format(context.getString(R.string.duplicates_stickers_share), stickersGalleryViewModel.getDuplicateStickersString())
+            shareStickers(missingStickersString)
         }
 
         binding.changeAlbum.setOnClickListener {
@@ -80,6 +69,17 @@ class DrawerMenuView @JvmOverloads constructor(
             navController.navigate(R.id.SelectAlbumFragment)
             activity.closeDrawer()
         }
+    }
+
+    private fun shareStickers(text: String) {
+        val sendIntent: Intent = Intent().apply {
+            action = Intent.ACTION_SEND
+            putExtra(Intent.EXTRA_TEXT, text)
+            type = INTENT_TEXT_TYPE
+        }
+
+        val shareIntent = Intent.createChooser(sendIntent, null)
+        context.startActivity(shareIntent)
     }
 
     fun applyWindowInsets(topInsets: Int) {
