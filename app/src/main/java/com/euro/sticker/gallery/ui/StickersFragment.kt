@@ -8,13 +8,24 @@ import android.view.ViewGroup
 import com.euro.sticker.MainActivity
 import com.euro.sticker.databinding.FragmentFirstBinding
 import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
+import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class StickersFragment : Fragment() {
 
+    @Inject
+    lateinit var provider: MyVMProvider
+
     private var _binding: FragmentFirstBinding? = null
     private val binding get() = _binding!!
+
+    override fun onStart() {
+        super.onStart()
+        val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
+        stickersGalleryViewModel.fetchInitialData()
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,

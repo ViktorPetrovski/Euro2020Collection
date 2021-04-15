@@ -36,11 +36,7 @@ class StickersGalleryViewModel @Inject constructor(
     private val _allAlbums = MutableLiveData<List<AlbumModel>>()
     val allAlbums: LiveData<List<AlbumModel>> = _allAlbums
 
-    init {
-        fetchInitialData()
-    }
-
-    private fun fetchInitialData() {
+    fun fetchInitialData() {
         viewModelScope.launch {
             totalOwned = 0
             val resultData = mutableListOf<GalleryContent>()
