@@ -8,6 +8,8 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 private const val VIEW_FILTER_ORDINAL = "com.euro.sticker.gallery.data.VIEW_FILTER"
+private const val SELECTED_ALBUM = "com.euro.sticker.gallery.data.SELECTED_ALBUM"
+
 @Singleton
 class MySharedPreferences @Inject constructor(@ApplicationContext context: Context) {
     private val prefs = PreferenceManager.getDefaultSharedPreferences(context)
@@ -19,5 +21,13 @@ class MySharedPreferences @Inject constructor(@ApplicationContext context: Conte
 
     fun setStoredTag(viewFilter: ViewFilter) {
         prefs.edit().putInt(VIEW_FILTER_ORDINAL, viewFilter.ordinal).apply()
+    }
+
+    fun getSelectedAlbum(): Int {
+        return prefs.getInt(SELECTED_ALBUM, -1)
+    }
+
+    fun changeSelectedAlbum(albumId: Int) {
+        prefs.edit().putInt(SELECTED_ALBUM, albumId).apply()
     }
 }

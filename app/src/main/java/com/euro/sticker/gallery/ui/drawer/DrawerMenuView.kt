@@ -4,25 +4,19 @@ import android.content.Context
 import android.content.Intent
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
-import androidx.navigation.findNavController
+import androidx.navigation.Navigation
+import com.euro.sticker.MainActivity
 import com.euro.sticker.R
 import com.euro.sticker.databinding.ViewDrawerBinding
+import com.euro.sticker.gallery.data.Repository
 import com.euro.sticker.gallery.domain.model.ViewFilter
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
-import com.euro.sticker.uicommon.base.applyTopWindowInsetsPadding
-import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
-import com.euro.sticker.uicommon.base.viewmodel.createViewModelLazy
-import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
 import com.euro.sticker.uicommon.base.viewmodel.lifecycleOwner
 import com.google.android.material.navigation.NavigationView
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.WithFragmentBindings
 import javax.inject.Inject
 
-private const val TOTAL_STICKERS_COUNT = 654
 private const val INTENT_TEXT_TYPE = "text/plain"
 
 @AndroidEntryPoint
@@ -35,6 +29,8 @@ class DrawerMenuView @JvmOverloads constructor(
     private val binding = ViewDrawerBinding.inflate(LayoutInflater.from(context), this, true)
     @Inject
     lateinit var provider: MyVMProvider
+    @Inject
+    lateinit var repository: Repository
 
     init {
         val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
@@ -54,34 +50,40 @@ class DrawerMenuView @JvmOverloads constructor(
         }
 
         stickersGalleryViewModel.getOwnedStickersCount.observe(context.lifecycleOwner) {
-            binding.currentStatsNumbers.text = "$it/$TOTAL_STICKERS_COUNT"
-            var percentage = ((it.toDouble() / TOTAL_STICKERS_COUNT) * 100).toInt()
+            val totalStickersCount = repository.getTotalStickersForSelectedAlbum()
+            binding.currentStatsNumbers.text = "$it/$totalStickersCount"
+            var percentage = ((it.toDouble() / totalStickersCount) * 100).toInt()
             binding.currentStatsPercent.text = "$percentage%"
         }
 
         binding.shareMissingStickers.setOnClickListener {
-            val string = String.format(context.getString(R.string.export_string), stickersGalleryViewModel.getMissingStickersString())
-            val sendIntent: Intent = Intent().apply {
-                action = Intent.ACTION_SEND
-                putExtra(Intent.EXTRA_TEXT, string)
-                type = INTENT_TEXT_TYPE
-            }
+            val missingStickersString = String.format(context.getString(R.string.missing_stickers_share), stickersGalleryViewModel.getMissingStickersString())
+            shareStickers(missingStickersString)
+        }
 
-            val shareIntent = Intent.createChooser(sendIntent, null)
-            context.startActivity(shareIntent)
+        binding.shareDuplicatestickers.setOnClickListener {
+            val missingStickersString = String.format(context.getString(R.string.duplicates_stickers_share), stickersGalleryViewModel.getDuplicateStickersString())
+            shareStickers(missingStickersString)
+        }
+
+        binding.changeAlbum.setOnClickListener {
+            val activity = (context as? MainActivity) ?: return@setOnClickListener
+            val navController = Navigation.findNavController(activity, R.id.nav_host_fragment)
+            navController.navigate(R.id.SelectAlbumFragment)
+            activity.closeDrawer()
         }
     }
 
-    private fun shareMissingStickers() {
+    private fun shareStickers(text: String) {
+        val sendIntent: Intent = Intent().apply {
+            action = Intent.ACTION_SEND
+            putExtra(Intent.EXTRA_TEXT, text)
+            type = INTENT_TEXT_TYPE
+        }
 
+        val shareIntent = Intent.createChooser(sendIntent, null)
+        context.startActivity(shareIntent)
     }
-
-//    override fun onAttachedToWindow() {
-//        super.onAttachedToWindow()
-//        binding.statusBar.doOnApplyWindowInsets { _, windowInsets, initialPadding ->
-//            binding.statusBar.layoutParams.height = windowInsets.systemWindowInsetTop
-//        }
-//    }
 
     fun applyWindowInsets(topInsets: Int) {
         binding.statusBar.layoutParams.height = topInsets

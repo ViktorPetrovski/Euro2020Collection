@@ -103,7 +103,7 @@ fun View.slideDown() {
         }
 
         override fun onAnimationEnd(animation: Animation?) {
-            visibility = View.INVISIBLE
+            visibility = View.GONE
         }
 
         override fun onAnimationStart(animation: Animation?) {
@@ -112,3 +112,11 @@ fun View.slideDown() {
     })
     this.startAnimation(animate)
 }
+
+fun NavController.isFragmentRemovedFromBackStack(destinationId: Int) =
+    try {
+        getBackStackEntry(destinationId)
+        false
+    } catch (e: Exception) {
+        true
+    }

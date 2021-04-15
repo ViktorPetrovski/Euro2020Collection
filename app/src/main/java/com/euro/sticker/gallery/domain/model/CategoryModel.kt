@@ -6,8 +6,8 @@ data class CategoryModel(
         val name: String,
         val stickers: List<StickerModel>
 ) {
-    constructor(stickersAndCategories: StickersAndCategories) : this(
+    constructor(stickersAndCategories: StickersAndCategories, albumId: Int) : this(
             stickersAndCategories.categoryEntity.name,
-            stickersAndCategories.stickers.map { StickerModel(it) }
+            stickersAndCategories.stickers.filter { it.albumId.toInt() == albumId }.map { StickerModel(it) }
     )
 }

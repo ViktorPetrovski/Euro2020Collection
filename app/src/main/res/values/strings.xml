@@ -17,7 +17,13 @@
     <string name="share_app">Share App</string>
     <string name="about">About</string>
     <string name="share_missing">Share Missing Stickers</string>
+    <string name="share_duplicate">Share Duplicate Stickers</string>
     <string name="import_stickers">Import Stickers</string>
-    <string name="export_string">EURO 2020 Tournament Edition\n\nThese are my missing stickers:\n%s</string>
+    <string name="missing_stickers_share">These are my missing stickers:\n%s\n\n Shared via Euro 2020 Stickers Albu‪m ⚽, get the app: https://tiny.cc/stickersAlbum</string>
+    <string name="duplicates_stickers_share">These are my duplicate stickers:\n%s\n\n Shared via Euro 2020 Stickers Albu‪m ⚽️, get the app: https://tiny.cc/stickersAlbum</string>
     <string name="undo">Undo</string>
+    <string name="select_album">Select Album</string>
+    <string name="change_album">Change Album</string>
+    <string name="active_album">Currently Selected</string>
+    <string name="album_selected">Selected: %s</string>
 </resources>

@@ -5,22 +5,26 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
-import androidx.fragment.app.viewModels
-import androidx.hilt.navigation.fragment.hiltNavGraphViewModels
-import com.bumptech.glide.Glide
 import com.euro.sticker.MainActivity
-import com.euro.sticker.R
 import com.euro.sticker.databinding.FragmentFirstBinding
-import com.euro.sticker.uicommon.base.applyTopWindowInsetsPadding
 import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
+import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class StickersFragment : Fragment() {
 
+    @Inject
+    lateinit var provider: MyVMProvider
+
     private var _binding: FragmentFirstBinding? = null
     private val binding get() = _binding!!
+
+    override fun onStart() {
+        super.onStart()
+
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
