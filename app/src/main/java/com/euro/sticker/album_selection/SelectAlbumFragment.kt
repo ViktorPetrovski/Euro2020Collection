@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.euro.sticker.databinding.FragmentSelectAlbumBinding
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
@@ -54,6 +55,7 @@ class SelectAlbumFragment : Fragment() {
         val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
         stickersGalleryViewModel.albumSelected(albumModel)
         Toast.makeText(context, "Selected: ${albumModel.name}", Toast.LENGTH_LONG).show()
+        findNavController().popBackStack()
     }
 
     override fun onDestroyView() {

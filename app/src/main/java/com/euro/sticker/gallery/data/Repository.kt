@@ -1,21 +1,16 @@
 package com.euro.sticker.gallery.data
 
-import android.content.Context
-import android.os.Build
-import android.util.Log
-import androidx.annotation.RequiresApi
 import com.euro.sticker.album_selection.AlbumModel
 import com.euro.sticker.gallery.domain.model.CategoryModel
 import com.euro.sticker.gallery.domain.model.ViewFilter
-import com.google.gson.Gson
-import dagger.hilt.android.qualifiers.ApplicationContext
-import java.io.IOException
 import javax.inject.Inject
+
+private const val PREDEFINED_ALBUM_COUNT = 25
+private const val DEFAULT_ALBUM_ID = 1
 
 class Repository @Inject constructor(
     private val stickersDao: StickersDao,
-    private val mySharedPreferences: MySharedPreferences,
-    @ApplicationContext private val context: Context
+    private val mySharedPreferences: MySharedPreferences
 ) {
 
     suspend fun getAllStickers(): List<CategoryModel> {
@@ -24,30 +19,38 @@ class Repository @Inject constructor(
             return emptyList()
         }
         return stickersDao.getCategoriesAndStickers().map { CategoryModel(it, selectedAlbumId) }
+            .filter { it.stickers.isNotEmpty() }
     }
 
-    suspend fun updateSticker(newAmount: Int, uid: Int) = stickersDao.updateSticker(
-        newAmount,
-        uid
-    )
+    suspend fun updateSticker(newAmount: Int, uid: Int) = stickersDao.updateSticker(newAmount, uid)
 
     fun getFilter(): ViewFilter = mySharedPreferences.get()
 
     fun changeFilter(setFilter: ViewFilter) = mySharedPreferences.setStoredTag(setFilter)
 
-    fun isAlbumSelected() = mySharedPreferences.getSelectedAlbum() != -1
+    suspend fun isAlbumSelected() : Boolean {
+        val selectedAlbum = mySharedPreferences.getSelectedAlbum() != -1
+        if (selectedAlbum)
+            return true
+        // Count of first album
+        val count = stickersDao.getAlbumsWithTotalCount().firstOrNull() ?: return false
+        if (count > PREDEFINED_ALBUM_COUNT)
+            mySharedPreferences.changeSelectedAlbum(DEFAULT_ALBUM_ID)
+        return true
+    }
 
     fun changeSelectedAlbum(albumId: Int) = mySharedPreferences.changeSelectedAlbum(albumId)
 
     suspend fun getAllAlbums(): List<AlbumModel> {
         val albums = mutableListOf<AlbumModel>()
         val selectedAlbum = mySharedPreferences.getSelectedAlbum()
-        val count = stickersDao.getAlbumsWithTotalCount()
+        val albumsWithCount = stickersDao.getAlbumsWithTotalCount()
         stickersDao.getAllAlbums().forEachIndexed { index, albumEntity ->
+            val albumCount = albumsWithCount.getOrNull(index) ?: 0
             albums.add(
                 AlbumModel(
                     albumEntity.name,
-                    count[index],
+                    albumCount,
                     albumEntity.stickersCount,
                     albumEntity.id.toInt(),
                     albumEntity.id.toInt() == selectedAlbum

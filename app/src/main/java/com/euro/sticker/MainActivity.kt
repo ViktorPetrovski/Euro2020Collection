@@ -8,8 +8,10 @@ import android.widget.FrameLayout
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.euro.sticker.databinding.ActivityMainBinding
 import com.euro.sticker.gallery.data.Repository
@@ -19,7 +21,9 @@ import com.euro.sticker.gallery.ui.drawer.DrawerHeaderView
 import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
+import com.euro.sticker.uicommon.base.viewmodel.lifecycleOwner
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -45,14 +49,22 @@ class MainActivity : AppCompatActivity() {
         binding.root.doOnApplyWindowInsets { _, windowInsets, initialPadding ->
             binding.navView.applyWindowInsets(windowInsets.systemWindowInsetTop)
         }
-//        val graph = findNavController(R.id.nav_host_fragment).graph
-//
-//        val startDestination = if (repository.isAlbumSelected())
-//            R.id.StickersGalleryFragment
-//        else
-//            R.id.StickersGalleryFragment
-//        graph.startDestination = startDestination
-//        findNavController(R.id.nav_host_fragment).graph = graph
+
+        setStartDestination()
+    }
+
+    private fun setStartDestination() {
+        lifecycleOwner.lifecycleScope.launch {
+            val navHostFragment =
+                (supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment)
+            val inflater = navHostFragment.navController.navInflater
+            val graph = inflater.inflate(R.navigation.nav_graph)
+            if (repository.isAlbumSelected())
+                graph.startDestination = R.id.StickersGalleryFragment
+            else
+                graph.startDestination = R.id.SelectAlbumFragment
+            navHostFragment.navController.graph = graph
+        }
     }
 
     private fun setupDrawer() {

@@ -146,5 +146,13 @@ class StickersGalleryViewModel @Inject constructor(
     fun albumSelected(albumModel: AlbumModel) {
         repository.changeSelectedAlbum(albumId = albumModel.albumId)
         fetchInitialData()
+        resetCurrentView()
+    }
+
+    private fun resetCurrentView() {
+        totalOwned = 0
+        stickersList = mutableListOf()
+        stickers.postValue(emptyList())
+        stickersOwnedCount.postValue(totalOwned)
     }
 }
