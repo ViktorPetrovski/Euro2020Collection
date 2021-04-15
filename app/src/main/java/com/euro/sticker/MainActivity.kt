@@ -2,26 +2,19 @@ package com.euro.sticker
 
 import android.os.Bundle
 import android.view.Gravity
-import android.view.Menu
-import android.view.MenuItem
 import android.widget.FrameLayout
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.Navigation
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.euro.sticker.databinding.ActivityMainBinding
 import com.euro.sticker.gallery.data.Repository
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
-import com.euro.sticker.gallery.ui.adapter.StickersRecyclerView
-import com.euro.sticker.gallery.ui.drawer.DrawerHeaderView
 import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
-import com.euro.sticker.uicommon.base.viewmodel.hiltNavGraphViewModels
 import com.euro.sticker.uicommon.base.viewmodel.lifecycleOwner
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
@@ -61,9 +54,11 @@ class MainActivity : AppCompatActivity() {
             val inflater = navHostFragment.navController.navInflater
             val graph = inflater.inflate(R.navigation.nav_graph)
             val isAlbumSelected = repository.isAlbumSelected()
-            if (isAlbumSelected)
+            if (isAlbumSelected) {
+                val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
+                stickersGalleryViewModel.fetchInitialData()
                 graph.startDestination = R.id.StickersGalleryFragment
-            else {
+            } else {
                 lockDrawer()
                 graph.startDestination = R.id.SelectAlbumFragment
             }

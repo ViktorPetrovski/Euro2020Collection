@@ -23,8 +23,7 @@ class StickersFragment : Fragment() {
 
     override fun onStart() {
         super.onStart()
-        val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
-        stickersGalleryViewModel.fetchInitialData()
+
     }
 
     override fun onCreateView(
