@@ -59,4 +59,11 @@ class Repository @Inject constructor(
         }
         return albums
     }
+
+    fun getTotalStickersForSelectedAlbum(): Int {
+        return when (mySharedPreferences.getSelectedAlbum()) {
+            1 -> 654
+            else -> 658
+        }
+    }
 }

@@ -8,6 +8,7 @@ import androidx.navigation.Navigation
 import com.euro.sticker.MainActivity
 import com.euro.sticker.R
 import com.euro.sticker.databinding.ViewDrawerBinding
+import com.euro.sticker.gallery.data.Repository
 import com.euro.sticker.gallery.domain.model.ViewFilter
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
@@ -16,7 +17,6 @@ import com.google.android.material.navigation.NavigationView
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
-private const val TOTAL_STICKERS_COUNT = 654
 private const val INTENT_TEXT_TYPE = "text/plain"
 
 @AndroidEntryPoint
@@ -29,6 +29,8 @@ class DrawerMenuView @JvmOverloads constructor(
     private val binding = ViewDrawerBinding.inflate(LayoutInflater.from(context), this, true)
     @Inject
     lateinit var provider: MyVMProvider
+    @Inject
+    lateinit var repository: Repository
 
     init {
         val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
@@ -48,8 +50,9 @@ class DrawerMenuView @JvmOverloads constructor(
         }
 
         stickersGalleryViewModel.getOwnedStickersCount.observe(context.lifecycleOwner) {
-            binding.currentStatsNumbers.text = "$it/$TOTAL_STICKERS_COUNT"
-            var percentage = ((it.toDouble() / TOTAL_STICKERS_COUNT) * 100).toInt()
+            val totalStickersCount = repository.getTotalStickersForSelectedAlbum()
+            binding.currentStatsNumbers.text = "$it/$totalStickersCount"
+            var percentage = ((it.toDouble() / totalStickersCount) * 100).toInt()
             binding.currentStatsPercent.text = "$percentage%"
         }
 
