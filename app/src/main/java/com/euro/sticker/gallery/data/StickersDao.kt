@@ -1,10 +1,7 @@
 package com.euro.sticker.gallery.data
 
 import androidx.room.*
-import com.euro.sticker.gallery.data.model.AlbumEntity
-import com.euro.sticker.gallery.data.model.CategoryEntity
-import com.euro.sticker.gallery.data.model.StickerEntity
-import com.euro.sticker.gallery.data.model.StickersAndCategories
+import com.euro.sticker.gallery.data.model.*
 
 @Dao
 interface StickersDao {
@@ -16,8 +13,8 @@ interface StickersDao {
     @Query("SELECT * FROM StickerEntity")
     suspend fun getAllStickers(): List<StickerEntity>
 
-    @Query("UPDATE StickerEntity SET amount=:amount WHERE number=:number")
-    suspend fun updateSticker(amount: Int, number: Int)
+    @Query("UPDATE StickerEntity SET amount=:amount WHERE uid=:uid")
+    suspend fun updateSticker(amount: Int, uid: Int)
 
     @Query("UPDATE StickerEntity SET number=:number WHERE uid=:uid")
     suspend fun updateStickerNumber(uid: Long, number: Int)
@@ -30,4 +27,7 @@ interface StickersDao {
 
     @Query("SELECT * FROM AlbumEntity")
     suspend fun getAllAlbums(): List<AlbumEntity>
+
+    @Query("SELECT COUNT(number) from StickerEntity WHERE amount > 0 group by album_id")
+    suspend fun getAlbumsWithTotalCount(): List<Int>
 }

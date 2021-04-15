@@ -20,6 +20,7 @@ data class CategoryContent(
 }
 
 data class StickerContent(
+    val uid: Int,
     val number: Int,
     val name: String,
     val amount: Int,
@@ -27,6 +28,7 @@ data class StickerContent(
 ) : GalleryContent(number.toString(), ContentType.STICKER) {
 
     constructor(stickerModel: StickerModel, categoryName: String) : this(
+        uid = stickerModel.uid,
         number = stickerModel.number,
         name = stickerModel.name,
         amount = stickerModel.amountOwned,

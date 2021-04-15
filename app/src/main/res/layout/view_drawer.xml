@@ -117,6 +117,24 @@
             android:textColor="@color/primary_text"
             android:textSize="16sp" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/border_color" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/changeAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginStart="@dimen/margin_start_drawer"
+            android:fontFamily="@font/beau_sans_pro_regular"
+            android:gravity="center_vertical"
+            android:text="@string/change_album"
+            android:textColor="@color/primary_text"
+            android:textSize="16sp" />
+
 <!--        <androidx.appcompat.widget.AppCompatTextView-->
 <!--            android:id="@+id/importStickers"-->
 <!--            android:layout_width="match_parent"-->

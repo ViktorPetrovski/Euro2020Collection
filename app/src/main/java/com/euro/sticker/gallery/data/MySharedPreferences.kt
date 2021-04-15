@@ -23,7 +23,6 @@ class MySharedPreferences @Inject constructor(@ApplicationContext context: Conte
         prefs.edit().putInt(VIEW_FILTER_ORDINAL, viewFilter.ordinal).apply()
     }
 
-
     fun getSelectedAlbum(): Int {
         return prefs.getInt(SELECTED_ALBUM, -1)
     }

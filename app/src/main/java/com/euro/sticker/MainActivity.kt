@@ -7,6 +7,7 @@ import android.view.MenuItem
 import android.widget.FrameLayout
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.GravityCompat
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
@@ -61,5 +62,9 @@ class MainActivity : AppCompatActivity() {
 
     fun openDrawer() {
         binding.drawerLayout.openDrawer(Gravity.LEFT)
+    }
+
+    fun closeDrawer() {
+        binding.drawerLayout.closeDrawer(GravityCompat.START)
     }
 }

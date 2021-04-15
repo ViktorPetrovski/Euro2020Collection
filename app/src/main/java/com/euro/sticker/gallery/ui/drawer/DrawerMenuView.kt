@@ -1,12 +1,15 @@
 package com.euro.sticker.gallery.ui.drawer
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
+import androidx.navigation.Navigation
 import androidx.navigation.findNavController
+import com.euro.sticker.MainActivity
 import com.euro.sticker.R
 import com.euro.sticker.databinding.ViewDrawerBinding
 import com.euro.sticker.gallery.domain.model.ViewFilter
@@ -70,18 +73,14 @@ class DrawerMenuView @JvmOverloads constructor(
             val shareIntent = Intent.createChooser(sendIntent, null)
             context.startActivity(shareIntent)
         }
+
+        binding.changeAlbum.setOnClickListener {
+            val activity = (context as? MainActivity) ?: return@setOnClickListener
+            val navController = Navigation.findNavController(activity, R.id.nav_host_fragment)
+            navController.navigate(R.id.SelectAlbumFragment)
+            activity.closeDrawer()
+        }
     }
-
-    private fun shareMissingStickers() {
-
-    }
-
-//    override fun onAttachedToWindow() {
-//        super.onAttachedToWindow()
-//        binding.statusBar.doOnApplyWindowInsets { _, windowInsets, initialPadding ->
-//            binding.statusBar.layoutParams.height = windowInsets.systemWindowInsetTop
-//        }
-//    }
 
     fun applyWindowInsets(topInsets: Int) {
         binding.statusBar.layoutParams.height = topInsets

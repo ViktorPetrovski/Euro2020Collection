@@ -47,6 +47,7 @@ class SelectAlbumFragment : Fragment() {
             albumsAdapter.itemList.addAll(it)
             albumsAdapter.notifyDataSetChanged()
         }
+        stickersGalleryViewModel.loadAlbums()
     }
 
     private fun onAlbumClicked(albumModel: AlbumModel) {

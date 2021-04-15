@@ -12,7 +12,7 @@ class SelectAlbumViewHolder(
     BaseViewHolder<ViewSelectAlbumBinding, AlbumModel>(itemBinding) {
 
     override fun bind(item: AlbumModel) {
-        itemBinding.albumName.text = item.name
+        itemBinding.albumName.text = item.name + "\n ${item.collectedStickers}/${item.stickersCount}"
         itemBinding.root.setOnClickListener { albumClicked.invoke(item) }
     }
 

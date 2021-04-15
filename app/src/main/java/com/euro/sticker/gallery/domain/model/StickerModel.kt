@@ -3,13 +3,17 @@ package com.euro.sticker.gallery.domain.model
 import com.euro.sticker.gallery.data.model.StickerEntity
 
 data class StickerModel(
-        val number: Int,
-        val name: String,
-        val amountOwned: Int
+    val uid: Int,
+    val number: Int,
+    val name: String,
+    val amountOwned: Int,
+    val albumId: Int
 ) {
     constructor(stickerEntity: StickerEntity) : this(
-            stickerEntity.number,
-            stickerEntity.name,
-            stickerEntity.amount
+        stickerEntity.uid.toInt(),
+        stickerEntity.number,
+        stickerEntity.name,
+        stickerEntity.amount,
+        stickerEntity.albumId.toInt()
     )
 }

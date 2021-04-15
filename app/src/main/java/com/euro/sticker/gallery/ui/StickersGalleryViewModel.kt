@@ -37,13 +37,11 @@ class StickersGalleryViewModel @Inject constructor(
 
     init {
         fetchInitialData()
-        viewModelScope.launch {
-            repository.fixDb()
-        }
     }
 
     private fun fetchInitialData() {
         viewModelScope.launch {
+            totalOwned = 0
             val resultData = mutableListOf<GalleryContent>()
             repository.getAllStickers().forEach {
                 val categoryContent = CategoryContent(it)
@@ -88,7 +86,7 @@ class StickersGalleryViewModel @Inject constructor(
         stickersList[indexOfItem] = newSticker
         stickers.postValue(getDisplayList())
         viewModelScope.launch {
-            repository.updateSticker(newAmount, galleryContent.number)
+            repository.updateSticker(newAmount, galleryContent.uid)
         }
     }
 
@@ -115,7 +113,7 @@ class StickersGalleryViewModel @Inject constructor(
         stickersList[indexOfItem] = galleryContent.copy(amount = newAmount)
         stickers.postValue(getDisplayList())
         viewModelScope.launch {
-            repository.updateSticker(newAmount, galleryContent.number)
+            repository.updateSticker(newAmount, galleryContent.uid)
         }
     }
 
@@ -147,5 +145,6 @@ class StickersGalleryViewModel @Inject constructor(
 
     fun albumSelected(albumModel: AlbumModel) {
         repository.changeSelectedAlbum(albumId = albumModel.albumId)
+        fetchInitialData()
     }
 }
