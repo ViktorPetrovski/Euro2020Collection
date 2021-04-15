@@ -29,8 +29,8 @@ class Repository @Inject constructor(
     fun changeFilter(setFilter: ViewFilter) = mySharedPreferences.setStoredTag(setFilter)
 
     suspend fun isAlbumSelected() : Boolean {
-        val selectedAlbum = mySharedPreferences.getSelectedAlbum() != -1
-        if (selectedAlbum)
+        val selectedAlbum = mySharedPreferences.getSelectedAlbum()
+        if (selectedAlbum != -1)
             return true
         // Count of first album
         val count = stickersDao.getAlbumsWithTotalCount().firstOrNull() ?: return false

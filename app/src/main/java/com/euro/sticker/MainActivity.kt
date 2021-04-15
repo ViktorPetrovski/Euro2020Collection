@@ -60,7 +60,8 @@ class MainActivity : AppCompatActivity() {
                 (supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment)
             val inflater = navHostFragment.navController.navInflater
             val graph = inflater.inflate(R.navigation.nav_graph)
-            if (repository.isAlbumSelected())
+            val isAlbumSelected = repository.isAlbumSelected()
+            if (isAlbumSelected)
                 graph.startDestination = R.id.StickersGalleryFragment
             else {
                 lockDrawer()
