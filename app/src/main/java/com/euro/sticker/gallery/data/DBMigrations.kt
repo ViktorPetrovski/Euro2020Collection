@@ -16,11 +16,17 @@ val MIGRATION_1_2 = object : Migration(1, 2) {
                     "('3', 'Pearl Edition - Panini UEFA Euro 2020', '678')"
         )
         database.execSQL("ALTER TABLE StickerEntity ADD album_id INTEGER NOT NULL DEFAULT(1)")
-    }
-}
 
-val MIGRATION_2_3 = object : Migration(2, 3) {
-    override fun migrate(database: SupportSQLiteDatabase) {
+        database.execSQL(
+            "INSERT INTO \"CategoryEntity\" (\"uid\", \"name\") VALUES\n" +
+                    "('2', 'Group A Celebrations'),\n" +
+                    "('7', 'Group B Celebrations'),\n" +
+                    "('12', 'Group C Celebrations'),\n" +
+                    "('17', 'Group D Celebrations'),\n" +
+                    "('22', 'Group E Celebrations'),\n" +
+                    "('27', 'Group F Celebrations');"
+        )
+
         database.execSQL(
             "INSERT INTO `StickerEntity` (`uid`, `name`, `number`, `amount`, `category_id`, `album_id`) VALUES\n" +
                     "('679', 'UEFA Euro 2020 Logo', '1', '0', '1', '2'),\n" +
@@ -1368,19 +1374,30 @@ val MIGRATION_2_3 = object : Migration(2, 3) {
                     "('2010', 'Rúben Dias / Bernardo Silva', '654', '0', '31', '3'),\n" +
                     "('2011', 'Bruno Fernandes / Danilo Pereira', '655', '0', '31', '3');"
         )
-    }
-}
 
-val MIGRATION_3_4 = object : Migration(3, 4) {
-    override fun migrate(database: SupportSQLiteDatabase) {
-        database.execSQL(
-            "INSERT INTO \"CategoryEntity\" (\"uid\", \"name\") VALUES\n" +
-                    "('2', 'Group A Celebrations'),\n" +
-                    "('7', 'Group B Celebrations'),\n" +
-                    "('12', 'Group C Celebrations'),\n" +
-                    "('17', 'Group D Celebrations'),\n" +
-                    "('22', 'Group E Celebrations'),\n" +
-                    "('27', 'Group F Celebrations');"
-        )
+        database.execSQL("INSERT INTO \"StickerEntity\" (\"uid\", \"name\", \"number\", \"amount\", \"category_id\", \"album_id\") VALUES\n" +
+                "('2012', 'Rúben Neves / Diogo Jota', '656', '0', '31', '3'),\n" +
+                "('2013', 'Cristiano Ronaldo / João Félix', '657', '0', '31', '3'),\n" +
+                "('2014', 'Logo Portugal', '658', '0', '31', '3'),\n" +
+                "('2015', 'Rui Patrício', '659', '0', '31', '3'),\n" +
+                "('2016', 'Anthony Lopes', '660', '0', '31', '3'),\n" +
+                "('2017', 'João Cancelo', '661', '0', '31', '3'),\n" +
+                "('2018', 'José Fonte', '662', '0', '31', '3'),\n" +
+                "('2019', 'Mário Rui', '663', '0', '31', '3'),\n" +
+                "('2020', 'Nélson Semedo', '664', '0', '31', '3'),\n" +
+                "('2021', 'Pepe', '665', '0', '31', '3'),\n" +
+                "('2022', 'Raphaël Guerreiro', '666', '0', '31', '3'),\n" +
+                "('2023', 'Rúben Dias', '667', '0', '31', '3'),\n" +
+                "('2024', 'Bernardo Silva', '668', '0', '31', '3'),\n" +
+                "('2025', 'Bruno Fernandes', '669', '0', '31', '3'),\n" +
+                "('2026', 'Danilo Pereira', '670', '0', '31', '3'),\n" +
+                "('2027', 'João Moutinho', '671', '0', '31', '3'),\n" +
+                "('2028', 'Renato Sanches', '672', '0', '31', '3'),\n" +
+                "('2029', 'Rúben Neves', '673', '0', '31', '3'),\n" +
+                "('2030', 'William Carvalho', '674', '0', '31', '3'),\n" +
+                "('2031', 'Diogo Jota', '675', '0', '31', '3'),\n" +
+                "('2032', 'Cristiano Ronaldo', '676', '0', '31', '3'),\n" +
+                "('2033', 'João Félix', '677', '0', '31', '3'),\n" +
+                "('2034', 'Francisco Trincão', '678', '0', '31', '3');")
     }
 }
