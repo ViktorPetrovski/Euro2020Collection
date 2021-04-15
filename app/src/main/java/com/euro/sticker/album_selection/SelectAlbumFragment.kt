@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.euro.sticker.MainActivity
 import com.euro.sticker.R
 import com.euro.sticker.databinding.FragmentSelectAlbumBinding
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel

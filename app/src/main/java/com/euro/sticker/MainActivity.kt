@@ -8,6 +8,7 @@ import android.widget.FrameLayout
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
@@ -61,8 +62,10 @@ class MainActivity : AppCompatActivity() {
             val graph = inflater.inflate(R.navigation.nav_graph)
             if (repository.isAlbumSelected())
                 graph.startDestination = R.id.StickersGalleryFragment
-            else
+            else {
+                lockDrawer()
                 graph.startDestination = R.id.SelectAlbumFragment
+            }
             navHostFragment.navController.graph = graph
         }
     }
@@ -78,5 +81,9 @@ class MainActivity : AppCompatActivity() {
 
     fun closeDrawer() {
         binding.drawerLayout.closeDrawer(GravityCompat.START)
+    }
+
+    private fun lockDrawer() {
+        binding.drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
     }
 }
