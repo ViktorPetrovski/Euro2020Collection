@@ -13,7 +13,10 @@ import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class StickersFragment(override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentFirstBinding) : BaseFragment<FragmentFirstBinding>() {
+class StickersFragment : BaseFragment<FragmentFirstBinding>() {
+
+    override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentFirstBinding =
+        FragmentFirstBinding::inflate
 
     @Inject
     lateinit var provider: MyVMProvider
@@ -27,4 +30,6 @@ class StickersFragment(override val bindingInflater: (LayoutInflater, ViewGroup?
             binding.statusBar.layoutParams.height = windowInsets.systemWindowInsetTop
         }
     }
+
+
 }

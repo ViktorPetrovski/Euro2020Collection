@@ -13,6 +13,7 @@ import com.euro.sticker.R
 import com.euro.sticker.databinding.FragmentSelectAlbumBinding
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
 import com.euro.sticker.uicommon.base.doOnApplyWindowInsets
+import com.euro.sticker.uicommon.base.fragment.BaseFragment
 import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.isFragmentRemovedFromBackStack
 import com.google.android.gms.common.util.Strings
@@ -20,24 +21,12 @@ import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class SelectAlbumFragment : Fragment() {
+class SelectAlbumFragment : BaseFragment<FragmentSelectAlbumBinding>() {
 
+    override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentSelectAlbumBinding = FragmentSelectAlbumBinding::inflate
     @Inject
     lateinit var provider: MyVMProvider
-
-    private var _binding: FragmentSelectAlbumBinding? = null
-    private val binding get() = _binding!!
-
     private val albumsAdapter = AlbumAdapter(::onAlbumClicked)
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentSelectAlbumBinding.inflate(inflater, container, false)
-        return binding.root
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -65,10 +54,5 @@ class SelectAlbumFragment : Fragment() {
         val albumSelected = String.format(getString(R.string.album_selected), albumModel.name)
         Toast.makeText(context, albumSelected, Toast.LENGTH_LONG).show()
         findNavController().navigate(R.id.action_First_Launch_Gallery_Fragment)
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
     }
 }
