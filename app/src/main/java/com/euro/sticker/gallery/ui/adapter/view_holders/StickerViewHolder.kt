@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
+import androidx.core.view.isVisible
 import com.euro.sticker.R
 import com.euro.sticker.databinding.ViewStickerBinding
 import com.euro.sticker.gallery.ui.StickersGalleryViewModel
@@ -34,6 +35,9 @@ class StickerViewHolder(private val context: Context,
 
         itemBinding.stickerHolder.background = ContextCompat.getDrawable(context, drawable)
         itemBinding.stickerHolder.setOnClickListener { itemClicked.invoke(item) }
+
+        itemBinding.stickerDuplicatesTV.isVisible = item.amount > 1
+        itemBinding.stickerDuplicatesTV.text = "x${item.amount}"
     }
 
     companion object {
