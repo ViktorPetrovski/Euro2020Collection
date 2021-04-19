@@ -18,6 +18,7 @@ import com.euro.sticker.uicommon.base.viewmodel.MyVMProvider
 import com.euro.sticker.uicommon.base.viewmodel.lifecycleOwner
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
+import java.lang.RuntimeException
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -43,7 +44,6 @@ class MainActivity : AppCompatActivity() {
         binding.root.doOnApplyWindowInsets { _, windowInsets, initialPadding ->
             binding.navView.applyWindowInsets(windowInsets.systemWindowInsetTop)
         }
-
         setStartDestination()
     }
 
