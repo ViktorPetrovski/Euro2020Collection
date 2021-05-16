@@ -28,10 +28,8 @@ class StickersRecyclerView @JvmOverloads constructor(
 
     @Inject
     lateinit var provider: MyVMProvider
-
     private val stickersAdapter = StickersAdapter(::onItemClicked)
     private val gridManager = GridLayoutManager(context, COLUMNS)
-
     init {
         adapter = stickersAdapter
         adjustCorrectSpanSize()
