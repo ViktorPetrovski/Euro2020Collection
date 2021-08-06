@@ -28,17 +28,14 @@ class StickersRecyclerView @JvmOverloads constructor(
 
     @Inject
     lateinit var provider: MyVMProvider
-
     private val stickersAdapter = StickersAdapter(::onItemClicked)
     private val gridManager = GridLayoutManager(context, COLUMNS)
-
     init {
         adapter = stickersAdapter
         adjustCorrectSpanSize()
         layoutManager = gridManager
         addItemDecoration(ColumnItemDecoration())
     }
-
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
         val stickersGalleryViewModel: StickersGalleryViewModel by provider.getViewModel()
@@ -50,7 +47,6 @@ class StickersRecyclerView @JvmOverloads constructor(
             diffResult.dispatchUpdatesTo(stickersAdapter)
         }
     }
-
     private fun adjustCorrectSpanSize() {
         gridManager.spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
             override fun getSpanSize(position: Int): Int {
